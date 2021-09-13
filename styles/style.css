@@ -38,7 +38,7 @@ a{
 }
 #navbar{
     background-color: #000000;
-    position: sticky( 0px topp)
+    position: sticky( 0px topp);
 }
 #navbar ul{
     list-style: none;
