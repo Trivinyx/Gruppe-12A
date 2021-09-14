@@ -122,15 +122,12 @@ a{
     margin: 15px auto;
     line-height: 1em;
     box-shadow: 3px 3px 10px 4px #000000;
-    display: flex;
+    display: inline-flex;
 
 
 }
 @media(min-width: 875px) {
     .kort{
-        display: inline-flex;
-        justify-content: center;
-        align-content: center;
         margin: 15px;
     }
     .container
