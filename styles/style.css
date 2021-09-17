@@ -10,7 +10,7 @@
 }
 
 body{
-    font-family: Arial, helvetica , sans-serif;
+    font-family: 'Arial', 'helvetica' , sans-serif;
     line-height: 1.6em;
     margin: 0;
     background-color: var(--pri-col-l1);
