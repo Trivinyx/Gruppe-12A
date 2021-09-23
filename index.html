@@ -4,7 +4,214 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gruppe12A</title>
-    <link href="styles/style.css" rel="stylesheet">
+    <style>
+        body{
+            font-family: 'Arial', 'helvetica' , sans-serif;
+            line-height: 1.6em;
+            margin: 0;
+            background-color: var(--pri-col-l1);
+            /* websidens farge variabler */
+            --primery-color-main: #00FFFF;
+            --pri-col-main:#FFB100;
+            --pri-col-l1: #FFD168;
+            --pri-col-l2: #FFC132;
+            --pri-col-d1: #DB9800;
+            --pri-col-d2: #A47200;
+            --border-blacktone: #000;
+        }
+
+        a{
+            text-decoration: none;
+            color: black;
+        }
+
+        .button{
+            border: 1px solid var(--border-blacktone);
+            border-radius: 10px;
+            padding: 10px;
+            margin-right: 20px;
+            margin-top: 10px;
+            background-color: var(--pri-col-main);
+            box-sizing: border-box;
+            min-width: 230px;
+            box-shadow: inset -5px -5px 15px 0 ;
+        }
+
+        .button:hover{
+            background-color: var(--pri-col-l2);
+            font-weight: bold;
+            border: 2px solid var(--border-blacktone);
+            box-sizing: border-box;
+        }
+
+        .button:active{
+            color: green;
+            background-color: var(--pri-col-l1);
+            font-weight: bold;
+            border: 2px solid var(--border-blacktone);
+            box-sizing: border-box;
+        }
+
+        .container{
+            width: 80%;
+            min-width: 275px;
+            margin: auto;
+        }
+
+        .visitkort_container{
+            width: 1012px;
+            margin: auto;
+        }
+
+        #mainHeader{
+            background: var(--pri-col-main);
+            padding: 10px 40px;
+        }
+
+        #mainHeader h1{
+            text-align: center;
+            font-size: 48px;
+            text-shadow: 2px 2px 4px #000000;
+        }
+
+        #navbar{
+            background-color: var(--pri-col-d2);
+            padding-bottom: 10px;
+            padding-top: 10px;
+            position: sticky;
+            top: 0;
+            z-index: 3;
+        }
+
+        #navbar ul{
+            list-style: none;
+            text-align: center;
+        }
+
+        #navbar li{
+            display: inline;
+        }
+
+        #homePageTitle{
+            background-image: url("images/blueMountainSilluett.jpg");
+            background-position: center;
+            width: 95%;
+            min-height: 130px;
+            margin: 15px 2.5%;
+            background-size: cover;
+            text-align: center;
+            font-size: 28px;
+            line-height: 2em;
+        }
+
+        #homePageTitle h2{
+        }
+
+        #mainFooter{
+            background-color: var(--pri-col-d2);
+            text-align: center;
+            position: sticky;
+            width: 100%;
+            bottom: 0;
+            margin-top: 0;
+            padding-top: 5px;
+            padding-bottom: 5px;
+            z-index: 2;
+        }
+
+        #visitKort{
+            background-image: url("images/blueMountainSilluett.jpg");
+            background-size: cover;
+            min-height: 668px;
+            margin-top: 0;
+            margin-bottom: 0;
+        }
+
+        #visitKort h2{
+            text-align: center;
+            font-size: 28px;
+            margin-top: 0;
+            text-shadow: 1px 1px 2px #000000;
+            padding: 45px 0 15px 0;
+
+
+        }
+
+        .kort{
+            background-color: var(--pri-col-d1);
+            width: 300px;
+            height: 150px;
+            border: 1px solid var(--border-blacktone);
+            border-radius: 1.5em;
+            margin: 1em 1em;
+            line-height: 1em;
+            box-shadow: 3px 3px 10px 4px #000000;
+            position: relative;
+            z-index: 1;
+            display: inline-flex;
+        }
+
+        .kortText{
+            line-height: 1em;
+            padding-right: 10px;
+            position: absolute;
+            left: 110px;
+
+        }
+
+        .role{
+            font-style: italic;
+            font-size: 13px;
+        }
+
+        .info{
+            font-size: 14px;
+        }
+
+        .kort-image{
+            box-sizing: content-box;
+            min-width: 80px;
+            max-width: 80px;
+            min-height: 110px;
+            max-height: 110px;
+            position: absolute;
+            top: 15px;
+            left: 10px;
+            object-fit: cover;
+            border: 1px solid var(--border-blacktone);
+            box-shadow: 1px 1px 10px 2px #000000;
+            border-radius: 5%;
+            image-rendering: optimizeQuality;
+            background-color: var(--border-blacktone);
+
+            color: #f5f5f5;
+        }
+
+        @media(max-width: 1030px) {
+            .visitkort_container{
+                width: 675px;
+            }
+        }
+
+        @media(max-width: 695px) {
+            .visitkort_container{
+                width: 330px;
+            }
+            body{
+                min-width: 340px ;
+            }
+        }
+
+        @media(max-width:450px) {
+            #mainHeader h1{
+                font-size: 28px;
+            }
+            #homePageTitle{
+                font-size: 12px;
+                min-height: 50px;
+            }
+        }
+    </style>
 </head>
 <!--test-->
 <body>
@@ -17,7 +224,7 @@
         <div class="container">
             <ul>
                 <li><a class="button" href="#">Home</a></li>
-                <li><a class="button" href="underPages/vissitkort.html">Vissitkort</a></li>
+                <li><a class="button" href="#visitKort">Vissitkort</a></li>
             </ul>
         </div>
     </nav>
@@ -32,25 +239,64 @@
                 Vi er gruppe 12A på IT og informasjonssytemer ved UiA (Universitetet i Agder). Velkommen
                 til vår hjemmeside.
             </p>
-            <h3> eksempel tekst</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur deserunt nam nostrum quasi?
-                Laudantium, mollitia similique! Aliquid beatae, doloremque ducimus eos ex iste iure necessitatibus
-                quidem sed sit! Cum eaque illum nobis. Dolorum, enim fugit laudantium quibusdam vero vitae voluptas.
-                Alias atque beatae blanditiis commodi consequuntur corporis cumque cupiditate delectus dicta distinctio
-                dolore doloribus ducimus eius eligendi ex, fugiat impedit incidunt inventore ipsam laudantium libero
-                maxime molestias nisi nostrum officiis perspiciatis quasi ratione recusandae saepe sapiente soluta
-                tempora temporibus totam ut vitae, voluptas voluptatum. Aperiam enim est eveniet nobis repellendus!
-                Accusantium aliquid animi architecto aspernatur at atque autem blanditiis cupiditate eum fugit illum in
-                iste iure labore laboriosam modi molestiae nam nihil odit officiis omnis pariatur, perspiciatis placeat,
-                praesentium quaerat quasi similique sunt ut, vitae voluptates. Ad adipisci atque, commodi distinctio
-                doloremque earum et, explicabo harum illo incidunt ipsam labore libero minus nihil officiis quaerat quas
-                rerum sit unde vel. Accusamus aliquam, amet culpa cumque cupiditate debitis dolorem doloremque doloribus
-                earum eius eligendi excepturi, exercitationem facilis fuga ipsa ipsam itaque, laudantium magnam maxime
-                molestiae mollitia odit omnis pariatur perspiciatis provident quae quam recusandae reprehenderit rerum
-                tenetur. Assumenda in ipsam omnis veritatis voluptatum. Amet at beatae dolorum, facere harum officia
-                quo?
-            </p>
+            <h3> Gennerell info om gruppen</h3>
+            <p> Midlertidig text</p>
         </section>
+    </div>
+    <section id="visitKort">
+        <div class="visitkort_container">
+            <h2>Vissitkort</h2>
+            <div class="kort">
+                <img class="kort-image" src="images/Thomas.jpg" alt="Thomas er høy, blond og ikledd dress">
+                <div class="kortText">
+                    <p class="name"><strong>Thomas Aalerud Seim</strong></p>
+                    <p class="role">IT Student</p>
+                    <p class="info">Er en trening's narkoman som liker IT</p>
+                </div>
+            </div>
+            <div class="kort">
+                <img class="kort-image" src="images/Tom.jpg" alt="Tom har brunt hår, og er kledd i militæruniformen sin">
+                <div class="kortText">
+                    <p class="name"><strong>Tom André S. Myre</strong></p>
+                    <p class="role">IT Student</p>
+                    <p class="info">En huleboer som skyr lys, og liker HTML/CSS</p>
+                </div>
+            </div>
+            <div class="kort">
+                <img class="kort-image" src="images/Cathrine.jpg" alt="Cathrine har blondt hår, og er kledd i bunad">
+                <div class="kortText">
+                    <p class="name"><strong>Cathrine Roestad Halvorsen</strong></p>
+                    <p class="role">IT Student</p>
+                    <p class="info">IT nerd på dagtid, alkoholiker på kveldstid</p>
+                </div>
+            </div>
+            <div class="kort">
+                <img class="kort-image" src="images/Mats.jpg" alt="Mats har brunt, krøllete hår, og er kledd i en lys skjorte">
+                <div class="kortText">
+                    <p class="name"><strong>Mats Kristian Karstad</strong></p>
+                    <p class="role">IT Student</p>
+                    <p class="info">Alkohol, IT, fotball. in that order</p>
+                </div>
+            </div>
+            <div class="kort">
+                <img class="kort-image" src="images/Sunniva.jpg" alt="Her ser vi en selfie av Sunniva. Sunniva er blond">
+                <div class="kortText">
+                    <p class="name"><strong>Sunniva Lien</strong></p>
+                    <p class="role">IT Student</p>
+                    <p class="info"></p>
+                </div>
+            </div>
+            <div class="kort">
+                <img class="kort-image" src="images/Ansu.jpg" alt="Her ser vi Ansu, som har krøllete hår og maling i ansiktet">
+                <div class="kortText">
+                    <p class="name"><strong>Ansu Veli Eemeli Päivärinta</strong></p>
+                    <p class="role">IT Student</p>
+                    <p class="info"></p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="container">
         <aside id="sidebar">
 
         </aside>
