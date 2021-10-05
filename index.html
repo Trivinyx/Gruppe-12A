@@ -163,19 +163,22 @@
 
         .kort{
             /*hvordan kortets størrelse,farge og utsende skal være*/
-            background-color: var(--pri-col-d1);
+            background-color: rgba(18, 54 ,82 , 0.5);
             width: 300px;
             height: 150px;
             border: 1px solid var(--border-blacktone);
             border-radius: 1.5em;
             margin: 1em 1em;
             line-height: 1em;
-            box-shadow: 3px 3px 10px 4px #000000;
+            box-shadow: 3px 3px 10px 4px rgba(0,0,0,0.7);
             position: relative; /*for at dette blir foreldreelment for aligning av innhold*/
             z-index: 1; /*definers for at navbar og footer skal ligger over*/
             display: inline-flex; /*gjør at kortene kan ligge vedsidenav hverandre*/
+            transition: 500ms;
         }
-
+        .kort:hover{
+            background-color: rgba(18, 54 ,82 , 0.8);
+        }
         .kortText{
             /*hvordan teksten gennerelt skal være på kortet*/
             line-height: 1em;
@@ -183,6 +186,8 @@
             /*plassering av tekst på kortet*/
             position: absolute;
             left: 110px;
+            /**/
+            text-shadow: 2px 2px 10px rgba(0,0,0,0.4);
 
         }
         /*styling av enkeltlinjer på kortet*/
@@ -193,6 +198,8 @@
 
         .info{
             font-size: 14px;
+        }
+        .name{
         }
         /*kommentaren over gjelder hit*/
 
@@ -208,7 +215,7 @@
             image-rendering: optimizeQuality;
             /*hvordan boksens kant, skygge og bakgrunn bak bildet ser ut*/
             border: 1px solid var(--border-blacktone);
-            box-shadow: 1px 1px 10px 2px #000000;
+            box-shadow: 1px 1px 10px 2px rgba(0,0,0,0.5);
             border-radius: 5%;
             background-color: var(--border-blacktone);
             /*positonering av bildet på kortet*/
