@@ -1,37 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <!--standar bokstav og tegnsett for siden-->
     <meta charset="UTF-8">
-    <!--gjør siden responsiv og compatible med andre en desktop-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gruppe12A</title>
-    <!--Css stylingen av siden-->
     <style>
         body{
-            /*standar definishoner for websiden*/
             font-family: 'Arial', 'helvetica' , sans-serif;
             line-height: 1.6em;
             margin: 0;
             background-color: var(--pri-col-l1);
             /* websidens farge variabler */
             --primery-color-main: #00FFFF;
-            --pri-col-main:#366684;
-            --pri-col-l1: #87AAC0;
-            --pri-col-l2: #55809C;
-            --pri-col-d1: #215170;
-            --pri-col-d2: #0E3B58;
+            --pri-col-main:#296593;
+            --pri-col-l1: #718EA4;
+            --pri-col-l2: #496D89;
+            --pri-col-d1: #123652;
+            --pri-col-d2: #042037;
             --border-blacktone: #000;
         }
 
         a{
-            /*fjernig av underlinje og sette tekstfarge til svart i linker*/
             text-decoration: none;
             color: black;
         }
 
         .button{
-            /*button sin default utforming og utsendet*/
             border: 1px solid var(--border-blacktone);
             border-radius: 10px;
             padding: 10px;
@@ -40,12 +34,10 @@
             background-color: var(--pri-col-main);
             box-sizing: border-box;
             min-width: 230px;
-            box-shadow: inset -3px -3px 10px 0 ;
+            box-shadow: inset -5px -5px 15px 0 ;
         }
 
-        .button:hover, .button:focus{
-            /*forandring av definisjoner, sånn at det er en visuell forskjell når en hovrere med
-            musen over elementet*/
+        .button:hover{
             background-color: var(--pri-col-l2);
             font-weight: bold;
             border: 2px solid var(--border-blacktone);
@@ -53,7 +45,6 @@
         }
 
         .button:active{
-            /*forandringer når knappen blir aktiver*/
             color: green;
             background-color: var(--pri-col-l1);
             font-weight: bold;
@@ -62,60 +53,46 @@
         }
 
         .container{
-            /*definisjon av hoved conteiner boks for content, slik at en får det sentrert og
-             litt margin til kantene*/
             width: 80%;
             min-width: 275px;
             margin: auto;
         }
 
         .visitkort_container{
-            /* brukt til og senterer vissitkortene, her defineres default tilfelle (størrelse på
-            arealet som visitkortene må være innenfor)*/
             width: 1012px;
             margin: auto;
         }
 
         #mainHeader{
-            /*defineres bakgrunnsfargen og padding for content i h1*/
             background: var(--pri-col-main);
             padding: 10px 40px;
         }
 
         #mainHeader h1{
-            /*her definerses det hvordan teksten i Headeren på toppen av siden skal se ut*/
             text-align: center;
             font-size: 48px;
             text-shadow: 2px 2px 4px #000000;
         }
 
         #navbar{
-            /*her defineres det hvordan navigasjonsbaren skal se ut*/
             background-color: var(--pri-col-d2);
             padding-bottom: 10px;
             padding-top: 10px;
-            /*den under gjør at den fester seg til toppen når en scroller på siden, hvor den
-            skal ligge når den fester seg med "top", og z-index sier noe om hvem som går over eller under
-            hverandre*/
             position: sticky;
             top: 0;
             z-index: 3;
         }
 
         #navbar ul{
-            /*fjerning av default bulletpoints med list-style, og centrering av text i listen*/
             list-style: none;
             text-align: center;
         }
 
         #navbar li{
-            /*gjør at listepunktene legger seg på samme linje*/
             display: inline;
-            line-height: 3.4em;
         }
 
         #homePageTitle{
-            /*utforming av tittle på siden, backgrunnsbilde til tittel og størrelse*/
             background-image: url("images/blueMountainSilluett.jpg");
             background-position: center;
             width: 95%;
@@ -131,21 +108,18 @@
         }
 
         #mainFooter{
-            /*hvordan baren som sitter på bånnen av siden ser ut*/
             background-color: var(--pri-col-d2);
             text-align: center;
+            position: sticky;
             width: 100%;
+            bottom: 0;
             margin-top: 0;
             padding-top: 5px;
             padding-bottom: 5px;
-            /*det under gjør at den sitter fast til bunnen av siden og hva som går over og under */
-            position: sticky;
-            bottom: 0;
             z-index: 2;
         }
 
         #visitKort{
-            /*uder defineres det hvordan bakgrunnen på sectionen av visitkort skal se ut*/
             background-image: url("images/blueMountainSilluett.jpg");
             background-size: cover;
             min-height: 668px;
@@ -154,44 +128,37 @@
         }
 
         #visitKort h2{
-            /*utsende og plassering på titlen i sectionen*/
             text-align: center;
             font-size: 28px;
             margin-top: 0;
             text-shadow: 1px 1px 2px #000000;
             padding: 45px 0 15px 0;
+
+
         }
 
         .kort{
-            /*hvordan kortets størrelse,farge og utsende skal være*/
-            background-color: rgba(18, 54 ,82 , 0.5);
+            background-color: var(--pri-col-d1);
             width: 300px;
             height: 150px;
             border: 1px solid var(--border-blacktone);
             border-radius: 1.5em;
             margin: 1em 1em;
             line-height: 1em;
-            box-shadow: 3px 3px 10px 4px rgba(0,0,0,0.7);
-            position: relative; /*for at dette blir foreldreelment for aligning av innhold*/
-            z-index: 1; /*definers for at navbar og footer skal ligger over*/
-            display: inline-flex; /*gjør at kortene kan ligge vedsidenav hverandre*/
-            transition: 500ms;
+            box-shadow: 3px 3px 10px 4px #000000;
+            position: relative;
+            z-index: 1;
+            display: inline-flex;
         }
-        .kort:hover{
-            background-color: rgba(18, 54 ,82 , 0.8);
-        }
+
         .kortText{
-            /*hvordan teksten gennerelt skal være på kortet*/
             line-height: 1em;
             padding-right: 10px;
-            /*plassering av tekst på kortet*/
             position: absolute;
             left: 110px;
-            /**/
-            text-shadow: 2px 2px 10px rgba(0,0,0,0.4);
 
         }
-        /*styling av enkeltlinjer på kortet*/
+
         .role{
             font-style: italic;
             font-size: 13px;
@@ -200,42 +167,33 @@
         .info{
             font-size: 14px;
         }
-        .name{
-        }
-        /*kommentaren over gjelder hit*/
 
         .kort-image{
-            /*fixed størrelse på bildet*/
             box-sizing: content-box;
             min-width: 80px;
             max-width: 80px;
             min-height: 110px;
             max-height: 110px;
-            /*hvordan bildet behandles innad i boksen*/
-            object-fit: cover;
-            image-rendering: optimizeQuality;
-            /*hvordan boksens kant, skygge og bakgrunn bak bildet ser ut*/
-            border: 1px solid var(--border-blacktone);
-            box-shadow: 1px 1px 10px 2px rgba(0,0,0,0.5);
-            border-radius: 5%;
-            background-color: var(--border-blacktone);
-            /*positonering av bildet på kortet*/
             position: absolute;
             top: 15px;
             left: 10px;
-            color: #f5f5f5; /* tekst farge på alt text*/
+            object-fit: cover;
+            border: 1px solid var(--border-blacktone);
+            box-shadow: 1px 1px 10px 2px #000000;
+            border-radius: 5%;
+            image-rendering: optimizeQuality;
+            background-color: var(--border-blacktone);
+
+            color: #f5f5f5;
         }
-        /* @media er brukt til og gjøre siden mer resposiv, ved at definisjonene blir tatt ibruk når visse definerte
-        thresholds er møtt*/
+
         @media(max-width: 1030px) {
-            /*mellomstørrelse*/
             .visitkort_container{
                 width: 675px;
             }
         }
 
         @media(max-width: 695px) {
-            /*minimal strørelse på siden og visitkort_container*/
             .visitkort_container{
                 width: 330px;
             }
@@ -245,7 +203,6 @@
         }
 
         @media(max-width:450px) {
-            /*reduksjon av i fontstørrelse når siden blir mindere i bredden*/
             #mainHeader h1{
                 font-size: 28px;
             }
@@ -269,8 +226,7 @@
         <div class="container">
             <ul>
                 <li><a class="button" href="#">Home</a></li>
-                <li><a class="button" href="hwr-report.html">HWR Report</a></li>
-                <li><a class="button" href="how-we-roll.html">HWR</a></li>
+                <li><a class="button" href="#visitKort">Vissitkort</a></li>
             </ul>
         </div>
     </nav>
@@ -348,7 +304,7 @@
                 <div class="kortText">
                     <p class="name"><strong>Ansu Veli Eemeli Päivärinta</strong></p>
                     <p class="role">IT Student</p>
-                    <p class="info">Sauna og flyvende pølser er livet.</p>
+                    <p class="info">Sauna, Nokia, Kossu, Kalevala, pyttipannu!</p>
                 </div>
             </div>
             <!--Avsluttende div for "visitkort_container"-->
