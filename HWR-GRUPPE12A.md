@@ -11,6 +11,8 @@ Bug-fix, endringer og kontroller; Vi har brukt Github til å komme med forslag t
 #17 (Sjekk at alt av text er lagt inn for bildene direkte i html) - Sjekk at alt= "tekst" i tagger for bilder er tilstede, og at den beskriver bildet på en forstårlig måte. Utbedre der dette trengs. 
 #37 (Endring av farger) -  Etter vi hadde bestemt oss så vi at fargene ikke passet helt sammen, så vi bestemte oss for å bytte fargepalett.
 
+Vi har en egen issue for diskusjon til forslag til utbedringer og/eller endringer til web-siden, hvor man kan komme med innspill. #18
+
 Tom og Thomas fikk i opgave å kommentere all koden til html og css filer i index.html filen vår #19(Kommentere koden til html og css filer). 
 
 
