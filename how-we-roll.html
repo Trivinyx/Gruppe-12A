@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns="http://www.w3.org/1999/html">
     <head>
         <title>How we roll</title>
         <meta charset="utf-8">
@@ -139,14 +139,62 @@
     </nav>
         <h2>How we roll</h2>
         <form>
-            <div>
-                <h3>preferanser ved teamarbeid:</h3>
-                <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, numquam?
-                </p>
-            </div>
+            <h3>HWR Form</h3>
         </form>
-            <button>Send</button>
+            <p>
+                <label for="fnavn"><strong>Fornavn</strong></label>
+                <input type="text" name="fnavn" id="fnavn">
+            </p>
+
+            <p>
+                <label for="enavn"><strong>Etternavn</strong></label>
+                <input type="text" name="enavn" id="enavn">
+            </p>
+            <p>
+                <label for="age"><strong>Age</strong></label>
+                <input type="number" name="age" id="age">
+            </p>
+            <p>
+                <label><strong>Gender</strong></label>
+                <select name="gen">
+                    <option value="fgen">Female</option>
+                    <option value="mgen">Male</option>
+                    <option value="ogen">Other</option>
+                </select>
+            </p>
+
+            <p><strong>Choose your favorite subject:</strong></p>
+            <form>
+                <input type="radio" id="100" name="favsub" value="100">
+                <label for="100">IS-100</label><br>
+                <input type="radio" id="104" name="favsub" value="104">
+                <label for="104">IS-104</label><br>
+                <input type="radio" id="114" name="favsub" value="114">
+                <label for="114">IS-114</label>
+            </form>
+
+            <p><strong>Are you happy?</strong></p>
+            <label for="hors">Very happy</label>
+            <input type="range" id="hors" name="hors" value="50">
+            <label for="hors">Very sad</label>
+
+
+            <p><strong>How much do you enjoy school?</strong></p>
+            <label for="school">Very much</label>
+            <input type="range" id="school" name="school" value="50">
+            <label for="school">Not so much</label>
+
+
+        <form>
+            <label for="username"><strong>Username:</strong></label><br>
+            <input type="text" id="username" name="username"><br>
+            <label for="pwd"><strong>Password:</strong></label><br>
+            <input type="password" id="pwd" name="pwd">
+        </form>
+
+
+
+            <button>Submit</button>
             <!--Footer på bånnen av siden-->
         <footer id="mainFooter">
             <div class="container">
