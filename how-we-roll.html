@@ -137,16 +137,87 @@
             </ul>
         </div>
     </nav>
-        <h2>How we roll</h2>
-        <form>
-            <div>
-                <h3>preferanser ved teamarbeid:</h3>
-                <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, numquam?
-                </p>
-            </div>
-        </form>
-            <button>Send</button>
+        <div class="container">
+            <h2>Kartlegging av teamarbeid</h2>
+            <form>
+                <label for="fnavn">Navn:</label><br>
+                <input type="text" id="fnavn" name="fnavn" value=""><br><br>
+
+                <table>
+                    <tr>
+                        <!-- mona - morgenfugl eller nattugle -->
+                        <td><label for="mona">Morgenfugl</label></td>
+                        <td><input type="range" id="mona" name="mona"></td>
+                        <td><label for="mona">Nattugle</label></td>
+                    </tr>
+                    <tr>
+                        <!-- aila - arbeide i lag eller alene -->
+                        <td><label for="aila">Arbeide i lag</label></td>
+                        <td><input type="range" id="aila" name="aila"></td>
+                        <td><label for="aila">Alene</label></td>
+                    </tr>
+                    <tr>
+                        <!-- veme - Verbal prosessor eller mental prosessor -->
+                        <td><label for="veme">Verbal prosessor</label></td>
+                        <td><input type="range" id="veme" name="veme"></td>
+                        <td><label for="veme">Mental prosessor</label></td>
+                    </tr>
+
+
+
+                    <tr>
+                        <!-- vime - video chat eller melding -->
+                        <td><label for="vime">Video chat</label></td>
+                        <td><input type="range" id="vime" name="vime"></td>
+                        <td><label for="vime">Melding</label></td>
+                    </tr>
+
+                     <tr>
+                         <!-- inkfog - inkluder meg i prosessen eller fortell meg hva jeg skal gjøre -->
+                         <td><label for="inkfog">Inkluder meg i prosessen</label></td>
+                         <td><input type="range" id="inkfog" name="inkfog"></td>
+                         <td><label for="inkfog">Fortell meg hva jeg skal gjøre</label></td>
+                     </tr>
+
+                     <tr>
+                         <!-- josjos - jobbe bare i skoletiden eller jobbe når jeg er i seget -->
+                         <td><label for="josjos">Jobbe bare i skoletiden</label></td>
+                         <td><input type="range" id="josjos" name="josjos"></td>
+                         <td><label for="josjos">Jobbe når jeg er i seget</label></td>
+                      </tr>
+
+                    <tr>
+                        <!-- stosmå - jobbe i stor gruppe eller dele opp i små -->
+                            <td><label for="stosmå">Jobbe i stor gruppe</label></td>
+                            <td><input type="range" id="stosmå" name="stosmå"></td>
+                            <td><label for="stosmå">Dele opp i små</label></td>
+                    </tr>
+
+                     <tr>
+                        <!-- plako - planlegge tid for å snakke eller ta kontakt når du trenger meg -->
+                         <td><label for="plako">Planlegge tid for å snakke</label></td>
+                        <td><input type="range" id="plako" name="plako"></td>
+                        <td><label for="plako">Ta kontakt når du trenger meg</label></td>
+                     </tr>
+
+                    <tr>
+                        <!-- prioff - privat annerkjennelse eller offentlig annerkjennelse -->
+                        <td><label for="prioff">Privat annerkjennelse</label></td>
+                        <td><input type="range" id="prioff" name="prioff"></td>
+                        <td><label for="prioff">Offentlig annerkjennelse</label></td>
+                    </tr>
+
+                    <tr>
+                        <!--  -  -->
+                        <td><label for=""></label></td>
+                        <td><input type="range" id="" name=""></td>
+                        <td><label for=""></label></td>
+                    </tr>
+                </table>
+
+                <button type="submit">Lagre</button>
+            </form>
+        </div>
             <!--Footer på bånnen av siden-->
         <footer id="mainFooter">
             <div class="container">
