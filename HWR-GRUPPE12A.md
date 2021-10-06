@@ -6,6 +6,8 @@ Etter dette brukte vi Github for å samle bilder og innhold til vissitkortene ti
 
 Da vi skulle velge farger til hjemmesiden fikk alle i oppgave å legge frem et forslag av et fargepallet #13(Vis frem en farge plaett fra htpps://www.paletton.com/ som kan passe til nettsiden). Etter det stemte vi over hvilke vi likte best, og så fikk Cathrine i oppgave å legge det inn i CSS #14(Legge inn fargepalett som er valgt). 
 
-Tom og Thomas fikk i opgave å kommentere all koden til html og css filer i index.html filen vår #19(Komm. 
+Tom og Thomas fikk i opgave å kommentere all koden til html og css filer i index.html filen vår #19(Kommentere koden til html og css filer). 
+
+
 
 Til form i HWR valgte vi å lage tre forskjellige brancher med forslag fra hvert kode-par, der vi bestemte oss for å ta utgangspunkt i branchen som heter HWR-form-3.
