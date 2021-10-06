@@ -218,11 +218,50 @@
                 <button type="submit">Lagre</button>
             </form>
         </div>
+        <div class="results">
+            <h2>Form Data</h2>
+            <pre></pre>
+        </div>
             <!--Footer på bånnen av siden-->
         <footer id="mainFooter">
             <div class="container">
                 <p>Gruppe 12A, 2021</p>
             </div>
         </footer>
+        
+        <script>
+            // From https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch (seen 2021-09-27)
+            // Example POST method implementation using fetch:
+            async function postData(url = '', data = {}) {
+                // Default options are marked with *
+                const response = await fetch(url, {
+                    method: 'POST', // *GET, POST, PUT, DELETE, etc.
+                    mode: 'cors', // no-cors, *cors, same-origin
+                    cache: 'no-cache', // *default, no-cache, reload, force-cache,only-if-cached
+                    credentials: 'same-origin', // include, *same-origin, omit
+                    headers: {
+                        'Content-Type': 'application/json',
+                         // 'Content-Type': 'application/x-www-form-urlencoded',
+                    },
+                    redirect: 'follow', // manual, *follow, error
+                    referrerPolicy: 'no-referrer', // no-referrer,*no-referrer-when-downgrade, origin, origin-when-cross-origin, same-origin, strict-origin, strict-origin-when-cross-origin, unsafe-url
+                    body: JSON.stringify(data) // body data type must match"Content-Type"header
+                });
+                return response.json(); // parses JSON response into native JavaScriptobjects
+            }
+         
+            function handleSubmit(event) {
+                 event.preventDefault();
+                 const data = new FormData(event.target);
+                 const formJSON = Object.fromEntries(data.entries());
+                 const results = document.querySelector('.results pre');
+                 postData('https://bacit.info/', formJSON)
+                 .then(data => {
+                    results.innerText = JSON.stringify(data, null, 2);
+                 });
+            }
+            const form = document.querySelector('form');
+            form.addEventListener('submit', handleSubmit);
+        </script>
     </body>
 </html>
