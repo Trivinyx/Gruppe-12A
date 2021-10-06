@@ -4,6 +4,6 @@ Da vi startet brukte vi github for å bli enige om layout på vissitkort. Her ko
 I første omgang satt Tom og Thomas sammen og bygde opp selve siden, men de har i senere tid forklart resten av gruppen hva de gjorde. 
 Etter dette brukte vi Github for å samle bilder og innhold til vissitkortene til alle i gruppen. Oppgaven om å legge inn informasjonen og bildene ble fordelt på to forskjellige personer.
 
-
+Da vi skulle velge farger til hjemmesiden fikk alle i oppgave å legge frem et forslag av et fargepallet. Etter det stemte vi over hvilke vi likte best, og så fikk Cathrine i oppgave å legge det inn i CSS. 
 
 Til form i HWR valgte vi å lage tre forskjellige brancher med forslag fra hvert kode-par, der vi bestemte oss for å ta utgangspunkt i branchen som heter HWR-form-3.
