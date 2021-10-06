@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>How we roll</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            body{
+            /*standar definishoner for websiden*/
+                font-family: 'Arial', 'helvetica' , sans-serif;
+                line-height: 1.6em;
+                margin: 0;
+                background-color: var(--pri-col-l1);
+                /* websidens farge variabler */
+                --primery-color-main: #00FFFF;
+                --pri-col-main:#366684;
+                --pri-col-l1: #87AAC0;
+                --pri-col-l2: #55809C;
+                --pri-col-d1: #215170;
+                --pri-col-d2: #0E3B58;
+                --border-blacktone: #000;
+            }
+
+            a{
+                /*fjernig av underlinje og sette tekstfarge til svart i linker*/
+                text-decoration: none;
+                color: black;
+            }
+
+            .button{
+                /*button sin default utforming og utsendet*/
+                border: 1px solid var(--border-blacktone);
+                border-radius: 10px;
+                padding: 10px;
+                margin-right: 20px;
+                margin-top: 10px;
+                background-color: var(--pri-col-main);
+                box-sizing: border-box;
+                min-width: 230px;
+                box-shadow: inset -3px -3px 10px 0 ;
+            }
+
+            .button:hover, .button:focus{
+                /*forandring av definisjoner, sånn at det er en visuell forskjell når en hovrere med
+                musen over elementet*/
+                background-color: var(--pri-col-l2);
+                font-weight: bold;
+                border: 2px solid var(--border-blacktone);
+                box-sizing: border-box;
+            }
+
+            .button:active{
+                /*forandringer når knappen blir aktiver*/
+                color: green;
+                background-color: var(--pri-col-l1);
+                font-weight: bold;
+                border: 2px solid var(--border-blacktone);
+                box-sizing: border-box;
+            }
+
+            .container{
+                /*definisjon av hoved conteiner boks for content, slik at en får det sentrert og
+                litt margin til kantene*/
+                width: 80%;
+                min-width: 275px;
+                margin: auto;
+            }
+
+            #mainHeader{
+                /*defineres bakgrunnsfargen og padding for content i h1*/
+                background: var(--pri-col-main);
+                padding: 10px 40px;
+            }
+
+            #mainHeader h1{
+                /*her definerses det hvordan teksten i Headeren på toppen av siden skal se ut*/
+                text-align: center;
+                font-size: 48px;
+                text-shadow: 2px 2px 4px #000000;
+            }
+
+            #navbar{
+                /*her defineres det hvordan navigasjonsbaren skal se ut*/
+                background-color: var(--pri-col-d2);
+                padding-bottom: 10px;
+                padding-top: 10px;
+                /*den under gjør at den fester seg til toppen når en scroller på siden, hvor den
+                skal ligge når den fester seg med "top", og z-index sier noe om hvem som går over eller under
+                hverandre*/
+                position: sticky;
+                top: 0;
+                z-index: 3;
+            }
+
+            #navbar ul{
+                /*fjerning av default bulletpoints med list-style, og centrering av text i listen*/
+                list-style: none;
+                text-align: center;
+            }
+
+            #navbar li{
+                /*gjør at listepunktene legger seg på samme linje*/
+                display: inline;
+            }
+
+            #mainFooter{
+                /*hvordan baren som sitter på bånnen av siden ser ut*/
+                background-color: var(--pri-col-d2);
+                text-align: center;
+                width: 100%;
+                margin-top: 0;
+                padding-top: 5px;
+                padding-bottom: 5px;
+                /*det under gjør at den sitter fast til bunnen av siden og hva som går over og under */
+                position: sticky;
+                bottom: 0;
+                z-index: 2;
+            }
+
+        </style>
+    </head>
+    <body>
+        <!--header på toppen av siden -->
+    <header id="mainHeader">
+        <!--class contaier er for og kunne definere standarbredden på tekst i dokumentet uten og påvirke backgrunn-->
+        <div class="container">
+            <h1>Gruppe&nbsp;12A</h1>
+        </div>
+    </header>
+    <!--navbar er en form for navigasjon til ulike steder til dette og eksterne dokumenter-->
+    <nav id="navbar">
+        <div class="container">
+            <ul>
+                <li><a class="button" href="index.html">Home</a></li>
+                <li><a class="button" href="hwr-report.html">HWR&nbsp;Report</a></li>
+                <li><a class="button" href="#">HWR</a> </li>
+            </ul>
+        </div>
+    </nav>
+        <div class="container">
+            <h2>Kartlegging av teamarbeid</h2>
+            <form>
+                <label for="fnavn">Navn:</label><br>
+                <input type="text" id="fnavn" name="fnavn" value=""><br><br>
+
+                <table>
+                    <tr>
+                        <!-- mona - morgenfugl eller nattugle -->
+                        <td><label for="mona">Morgenfugl</label></td>
+                        <td><input type="range" id="mona" name="mona"></td>
+                        <td><label for="mona">Nattugle</label></td>
+                    </tr>
+                    <tr>
+                        <!-- aila - arbeide i lag eller alene -->
+                        <td><label for="aila">Arbeide i lag</label></td>
+                        <td><input type="range" id="aila" name="aila"></td>
+                        <td><label for="aila">Alene</label></td>
+                    </tr>
+                    <tr>
+                        <!-- veme - Verbal prosessor eller mental prosessor -->
+                        <td><label for="veme">Verbal prosessor</label></td>
+                        <td><input type="range" id="veme" name="veme"></td>
+                        <td><label for="veme">Mental prosessor</label></td>
+                    </tr>
+
+
+
+                    <tr>
+                        <!-- vime - video chat eller melding -->
+                        <td><label for="vime">Video chat</label></td>
+                        <td><input type="range" id="vime" name="vime"></td>
+                        <td><label for="vime">Melding</label></td>
+                    </tr>
+
+                     <tr>
+                         <!-- inkfog - inkluder meg i prosessen eller fortell meg hva jeg skal gjøre -->
+                         <td><label for="inkfog">Inkluder meg i prosessen</label></td>
+                         <td><input type="range" id="inkfog" name="inkfog"></td>
+                         <td><label for="inkfog">Fortell meg hva jeg skal gjøre</label></td>
+                     </tr>
+
+                     <tr>
+                         <!-- josjos - jobbe bare i skoletiden eller jobbe når jeg er i seget -->
+                         <td><label for="josjos">Jobbe bare i skoletiden</label></td>
+                         <td><input type="range" id="josjos" name="josjos"></td>
+                         <td><label for="josjos">Jobbe når jeg er i seget</label></td>
+                      </tr>
+
+                    <tr>
+                        <!-- stosmå - jobbe i stor gruppe eller dele opp i små -->
+                            <td><label for="stosmå">Jobbe i stor gruppe</label></td>
+                            <td><input type="range" id="stosmå" name="stosmå"></td>
+                            <td><label for="stosmå">Dele opp i små</label></td>
+                    </tr>
+
+                     <tr>
+                        <!-- plako - planlegge tid for å snakke eller ta kontakt når du trenger meg -->
+                         <td><label for="plako">Planlegge tid for å snakke</label></td>
+                        <td><input type="range" id="plako" name="plako"></td>
+                        <td><label for="plako">Ta kontakt når du trenger meg</label></td>
+                     </tr>
+
+                    <tr>
+                        <!-- prioff - privat annerkjennelse eller offentlig annerkjennelse -->
+                        <td><label for="prioff">Privat annerkjennelse</label></td>
+                        <td><input type="range" id="prioff" name="prioff"></td>
+                        <td><label for="prioff">Offentlig annerkjennelse</label></td>
+                    </tr>
+
+                    <tr>
+                        <!--  -  -->
+                        <td><label for=""></label></td>
+                        <td><input type="range" id="" name=""></td>
+                        <td><label for=""></label></td>
+                    </tr>
+                </table>
+
+                <button type="submit">Lagre</button>
+            </form>
+        </div>
+        <div class="results">
+            <h2>Form Data</h2>
+            <pre></pre>
+        </div>
+            <!--Footer på bånnen av siden-->
+        <footer id="mainFooter">
+            <div class="container">
+                <p>Gruppe 12A, 2021</p>
+            </div>
+        </footer>
+        
+        <script>
+            // From https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch (seen 2021-09-27)
+            // Example POST method implementation using fetch:
+            async function postData(url = '', data = {}) {
+                // Default options are marked with *
+                const response = await fetch(url, {
+                    method: 'POST', // *GET, POST, PUT, DELETE, etc.
+                    mode: 'cors', // no-cors, *cors, same-origin
+                    cache: 'no-cache', // *default, no-cache, reload, force-cache,only-if-cached
+                    credentials: 'same-origin', // include, *same-origin, omit
+                    headers: {
+                        'Content-Type': 'application/json',
+                         // 'Content-Type': 'application/x-www-form-urlencoded',
+                    },
+                    redirect: 'follow', // manual, *follow, error
+                    referrerPolicy: 'no-referrer', // no-referrer,*no-referrer-when-downgrade, origin, origin-when-cross-origin, same-origin, strict-origin, strict-origin-when-cross-origin, unsafe-url
+                    body: JSON.stringify(data) // body data type must match"Content-Type"header
+                });
+                return response.json(); // parses JSON response into native JavaScriptobjects
+            }
+         
+            function handleSubmit(event) {
+                 event.preventDefault();
+                 const data = new FormData(event.target);
+                 const formJSON = Object.fromEntries(data.entries());
+                 const results = document.querySelector('.results pre');
+                 postData('https://bacit.info/', formJSON)
+                 .then(data => {
+                    results.innerText = JSON.stringify(data, null, 2);
+                 });
+            }
+            const form = document.querySelector('form');
+            form.addEventListener('submit', handleSubmit);
+        </script>
+    </body>
+</html>
