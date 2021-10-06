@@ -5,9 +5,8 @@ I første omgang satt Tom og Thomas sammen og bygde opp selve siden #6 (Lag en b
 Etter dette brukte vi Github for å samle bilder og innhold til vissitkortene til alle i gruppen #8 (profilbilde til vissitkort) og #9 (Kort beskrivelse om seg selv til vissitkort). Oppgaven om å legge inn informasjonen #12 (Legge inn info text på vissitkort.html) og bildene #11 (Upload profilbildene) ble fordelt på to forskjellige personer.
 
 Da vi skulle velge farger til hjemmesiden fikk alle i oppgave å legge frem et forslag av et fargepallet #13(Vis frem en farge plaett fra htpps://www.paletton.com/ som kan passe til nettsiden). Etter det stemte vi over hvilke vi likte best, og så fikk Cathrine i oppgave å legge det inn i CSS #14(Legge inn fargepalett som er valgt). 
+Da fargene var lagt inn så vi at fargene ikke passet helt inn i layouten, og bestemte oss for å endre de litt #37 (Endring av farger).
 
 Tom og Thomas fikk i opgave å kommentere all koden til html og css filer i index.html filen vår #19(Kommentere koden til html og css filer). 
 
-
-
-Til form i HWR valgte vi å lage tre forskjellige brancher med forslag fra hvert kode-par, der vi bestemte oss for å ta utgangspunkt i branchen som heter HWR-form-3.
+Til form i HWR valgte vi å lage tre forskjellige brancher med forslag fra hvert kode-par #41, #42 og #43 (Lag utkast til form i how-we-roll.html) der vi bestemte oss for å ta utgangspunkt i branchen som heter HWR-form-3.
