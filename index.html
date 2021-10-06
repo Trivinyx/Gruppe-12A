@@ -92,8 +92,6 @@
         #navbar{
             /*her defineres det hvordan navigasjonsbaren skal se ut*/
             background-color: var(--pri-col-d2);
-            padding-bottom: 10px;
-            padding-top: 10px;
             /*den under gjør at den fester seg til toppen når en scroller på siden, hvor den
             skal ligge når den fester seg med "top", og z-index sier noe om hvem som går over eller under
             hverandre*/
@@ -106,12 +104,15 @@
             /*fjerning av default bulletpoints med list-style, og centrering av text i listen*/
             list-style: none;
             text-align: center;
+            /* høyde på bakgrunnen i forhold til innhold i navbaren*/
+            padding: 0.5em;
+            margin-top: 0;
         }
 
         #navbar li{
             /*gjør at listepunktene legger seg på samme linje*/
             display: inline;
-            line-height: 3.4em;
+            line-height: 3em;
         }
 
         #homePageTitle{
