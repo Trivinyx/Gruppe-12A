@@ -11,6 +11,6 @@ Tom og Thomas fikk i opgave å kommentere all koden til html og css filer i inde
 
 Tom tok contentet fra vissitkort og paste over til Index, mens Thomas og Sunniva så på #27(Merge index.html og vissitkort.html). Vi hadde lagd hver sin fil til html og css, så Tom fikk i oppgave å ta css filen sitt inhold fra style.css og implimentere det inn i html-dokumentet #28(Take css content from sttyle.css and implement it in the html doc.
 
-
+Mats og Sunniva lagde filen som heter how-we-roll.html. Der de også la inn basic html for wc3 godkjennelse #29(Lag Html.doc how-we-roll.html). Videre lagde Cathrine og Ansu en html fil med navn hwr-report.html, der de også la inn basic doc med w3c godkjennelse #30(lag html hwr-report.html). Ansu og Cathine lagde også en md fil med tittelHWR-GRUPPE12A.md #31(lag HWR-GRUPPE12A.md)
 
 Til form i HWR valgte vi å lage tre forskjellige brancher med forslag fra hvert kode-par, der vi bestemte oss for å ta utgangspunkt i branchen som heter HWR-form-3.
