@@ -237,10 +237,7 @@
                 <button class="button" type="submit">Lagre</button>
             </form>
         </div>
-        <div class="results">
-            <h2>Form Data</h2>
-            <pre></pre>
-        </div>
+        <div class="results"></div>
             <!--Footer på bånnen av siden-->
         <footer id="mainFooter">
             <div class="container">
@@ -276,7 +273,8 @@
                  const results = document.querySelector('.results pre');
                  postData('https://bacit.info/', formJSON)
                  .then(data => {
-                    results.innerText = JSON.stringify(data, null, 2);
+                    //results.innerText = JSON.stringify(data, null, 2);
+                    console.log(JSON.stringify(data, null, 2));
                  });
             }
             const form = document.querySelector('form');
