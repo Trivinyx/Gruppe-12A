@@ -3,144 +3,147 @@
 <head>
     <meta charset="UTF-8">
     <title>HWR Report</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body{
+                /*standar definishoner for websiden*/
+                font-family: 'Arial', 'helvetica' , sans-serif;
+                line-height: 1.6em;
+                margin: 0;
+                background-color: var(--pri-col-l1);
+                /* websidens farge variabler */
+                --primery-color-main: #00FFFF;
+                --pri-col-main:#366684;
+                --pri-col-l1: #87AAC0;
+                --pri-col-l2: #55809C;
+                --pri-col-d1: #215170;
+                --pri-col-d2: #0E3B58;
+                --border-blacktone: #000;
+            }
 
-<style>
-    body{
-            /*standar definishoner for websiden*/
-            font-family: 'Arial', 'helvetica' , sans-serif;
-            line-height: 1.6em;
-            margin: 0;
-            background-color: var(--pri-col-l1);
-            /* websidens farge variabler */
-            --primery-color-main: #00FFFF;
-            --pri-col-main:#366684;
-            --pri-col-l1: #87AAC0;
-            --pri-col-l2: #55809C;
-            --pri-col-d1: #215170;
-            --pri-col-d2: #0E3B58;
-            --border-blacktone: #000;
-        }
+            a{
+                /*fjernig av underlinje og sette tekstfarge til svart i linker*/
+                text-decoration: none;
+                color: black;
+            }
 
-        a{
-            /*fjernig av underlinje og sette tekstfarge til svart i linker*/
-            text-decoration: none;
-            color: black;
-        }
+            .button{
+                /*button sin default utforming og utsendet*/
+                border: 1px solid var(--border-blacktone);
+                border-radius: 10px;
+                padding: 10px;
+                margin-right: 20px;
+                margin-top: 10px;
+                background-color: var(--pri-col-l2);
+                box-sizing: border-box;
+                min-width: 230px;
+                box-shadow: inset -3px -3px 10px 0 rgba(0,0,0, 0.7);
+            }
 
-        .button{
-            /*button sin default utforming og utsendet*/
-            border: 1px solid var(--border-blacktone);
-            border-radius: 10px;
-            padding: 10px;
-            margin-right: 20px;
-            margin-top: 10px;
-            background-color: var(--pri-col-main);
-            box-sizing: border-box;
-            min-width: 230px;
-            box-shadow: inset -3px -3px 10px 0 ;
-        }
+            .button:hover, .button:focus{
+                /*forandring av definisjoner, sånn at det er en visuell forskjell når en hovrere med
+                musen over elementet*/
+                background-color: var(--pri-col-l1);
+                font-weight: bold;
+                box-sizing: border-box;
+                box-shadow: inset -3px -3px 15px 0 rgba(0,0,0, 0.8);
+            }
 
-        .button:hover, .button:focus{
-            /*forandring av definisjoner, sånn at det er en visuell forskjell når en hovrere med
-            musen over elementet*/
-            background-color: var(--pri-col-l2);
-            font-weight: bold;
-            border: 2px solid var(--border-blacktone);
-            box-sizing: border-box;
-        }
+            .button:active{
+                /*forandringer når knappen blir aktiver*/
+                color: green;
+                background-color: var(--pri-col-l1);
+                font-weight: bold;
+                border: 2px solid var(--border-blacktone);
+                box-sizing: border-box;
+            }
 
-        .button:active{
-            /*forandringer når knappen blir aktiver*/
-            color: green;
-            background-color: var(--pri-col-l1);
-            font-weight: bold;
-            border: 2px solid var(--border-blacktone);
-            box-sizing: border-box;
-        }
+            .container{
+                /*definisjon av hoved conteiner boks for content, slik at en får det sentrert og
+                 litt margin til kantene*/
+                width: 80%;
+                min-width: 275px;
+                margin: auto;
+            }
+            #mainHeader{
+                /*defineres bakgrunnsfargen og padding for content i h1*/
+                background: var(--pri-col-main);
+                padding: 10px 40px;
+            }
 
-        .container{
-            /*definisjon av hoved conteiner boks for content, slik at en får det sentrert og
-             litt margin til kantene*/
-            width: 80%;
-            min-width: 275px;
-            margin: auto;
-        }
-        #mainHeader{
-            /*defineres bakgrunnsfargen og padding for content i h1*/
-            background: var(--pri-col-main);
-            padding: 10px 40px;
-        }
+            #mainHeader h1{
+                /*her definerses det hvordan teksten i Headeren på toppen av siden skal se ut*/
+                text-align: center;
+                font-size: 48px;
+                text-shadow: 2px 2px 4px #000000;
+            }
 
-        #mainHeader h1{
-            /*her definerses det hvordan teksten i Headeren på toppen av siden skal se ut*/
-            text-align: center;
-            font-size: 48px;
-            text-shadow: 2px 2px 4px #000000;
-        }
+            #navbar{
+                /*her defineres det hvordan navigasjonsbaren skal se ut*/
+                background-color: var(--pri-col-d2);
+                /*den under gjør at den fester seg til toppen når en scroller på siden, hvor den
+                skal ligge når den fester seg med "top", og z-index sier noe om hvem som går over eller under
+                hverandre*/
+                position: sticky;
+                top: 0;
+                z-index: 3;
+            }
 
-        #navbar{
-            /*her defineres det hvordan navigasjonsbaren skal se ut*/
-            background-color: var(--pri-col-d2);
-            padding-bottom: 10px;
-            padding-top: 10px;
-            /*den under gjør at den fester seg til toppen når en scroller på siden, hvor den
-            skal ligge når den fester seg med "top", og z-index sier noe om hvem som går over eller under
-            hverandre*/
-            position: sticky;
-            top: 0;
-            z-index: 3;
-        }
+            #navbar ul{
+                /*fjerning av default bulletpoints med list-style, og centrering av text i listen*/
+                list-style: none;
+                text-align: center;
+                /* høyde på bakgrunnen i forhold til innhold i navbaren*/
+                padding: 0.5em;
+                margin-top: 0;
+            }
 
-        #navbar ul{
-            /*fjerning av default bulletpoints med list-style, og centrering av text i listen*/
-            list-style: none;
-            text-align: center;
-        }
-
-        #navbar li{
-            /*gjør at listepunktene legger seg på samme linje*/
-            display: inline;
-            line-height: 3.4em;
-        }
-        #mainFooter{
-            /*hvordan baren som sitter på bånnen av siden ser ut*/
-            background-color: var(--pri-col-d2);
-            text-align: center;
-            width: 100%;
-            margin-top: 0;
-            padding-top: 5px;
-            padding-bottom: 5px;
-            /*det under gjør at den sitter fast til bunnen av siden og hva som går over og under */
-            position: sticky;
-            bottom: 0;
-            z-index: 2;
-        }
-</style>
+            #navbar li{
+                /*gjør at listepunktene legger seg på samme linje*/
+                display: inline;
+                line-height: 3em;
+            }
+            #mainFooter{
+                /*hvordan baren som sitter på bånnen av siden ser ut*/
+                background-color: var(--pri-col-d2);
+                color: var(--pri-col-l1);
+                font-weight: 800;
+                text-align: center;
+                width: 100%;
+                margin-top: 0;
+                padding-top: 5px;
+                padding-bottom: 5px;
+                /*det under gjør at den sitter fast til bunnen av siden og hva som går over og under */
+                position: sticky;
+                bottom: 0;
+                z-index: 2;
+            }
+    </style>
 </head>
 <body>
-<!--header på toppen av siden -->
-<header id="mainHeader">
-    <!--class contaier er for og kunne definere standarbredden på tekst i dokumentet uten og påvirke backgrunn-->
-    <div class="container">
-        <h1>Gruppe&nbsp;12A</h1>
-    </div>
-</header>
-<!--navbar er en form for navigasjon til ulike steder til dette og eksterne dokumenter-->
-<nav id="navbar">
-    <div class="container">
-        <ul>
-            <li><a class="button" href="index.html">Home</a></li>
-            <li><a class="button" href="#">HWR Report</a></li>
-            <li><a class="button" href="how-we-roll.html">HWR</a></li>
-        </ul>
-    </div>
-</nav>
-<p>Her kommer siden med how we roll rapporten.</p>
-<!--Footer på bånnen av siden-->
-<footer id="mainFooter">
-    <div class="container">
-        <p>Gruppe 12A, 2021</p>
-    </div>
-</footer>
+    <!--header på toppen av siden -->
+    <header id="mainHeader">
+        <!--class contaier er for og kunne definere standarbredden på tekst i dokumentet uten og påvirke backgrunn-->
+        <div class="container">
+            <h1>Gruppe&nbsp;12A</h1>
+        </div>
+    </header>
+    <!--navbar er en form for navigasjon til ulike steder til dette og eksterne dokumenter-->
+    <nav id="navbar">
+        <div class="container">
+            <ul>
+                <li><a class="button" href="index.html">Home</a></li>
+                <li><a class="button" href="#">HWR Report</a></li>
+                <li><a class="button" href="how-we-roll.html">HWR</a></li>
+            </ul>
+        </div>
+    </nav>
+    <p>Her kommer siden med how we roll rapporten.</p>
+    <!--Footer på bånnen av siden-->
+    <footer id="mainFooter">
+        <div class="container">
+            <p>Gruppe 12A, 2021</p>
+        </div>
+    </footer>
 </body>
 </html>

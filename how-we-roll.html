@@ -34,19 +34,19 @@
                 padding: 10px;
                 margin-right: 20px;
                 margin-top: 10px;
-                background-color: var(--pri-col-main);
+                background-color: var(--pri-col-l2);
                 box-sizing: border-box;
                 min-width: 230px;
-                box-shadow: inset -3px -3px 10px 0 ;
+                box-shadow: inset -3px -3px 10px 0 rgba(0,0,0, 0.7);
             }
 
             .button:hover, .button:focus{
                 /*forandring av definisjoner, sånn at det er en visuell forskjell når en hovrere med
                 musen over elementet*/
-                background-color: var(--pri-col-l2);
+                background-color: var(--pri-col-l1);
                 font-weight: bold;
-                border: 2px solid var(--border-blacktone);
                 box-sizing: border-box;
+                box-shadow: inset -3px -3px 15px 0 rgba(0,0,0, 0.8);
             }
 
             .button:active{
@@ -82,8 +82,6 @@
             #navbar{
                 /*her defineres det hvordan navigasjonsbaren skal se ut*/
                 background-color: var(--pri-col-d2);
-                padding-bottom: 10px;
-                padding-top: 10px;
                 /*den under gjør at den fester seg til toppen når en scroller på siden, hvor den
                 skal ligge når den fester seg med "top", og z-index sier noe om hvem som går over eller under
                 hverandre*/
@@ -96,16 +94,22 @@
                 /*fjerning av default bulletpoints med list-style, og centrering av text i listen*/
                 list-style: none;
                 text-align: center;
+                /* høyde på bakgrunnen i forhold til innhold i navbaren*/
+                padding: 0.5em;
+                margin-top: 0;
             }
 
             #navbar li{
                 /*gjør at listepunktene legger seg på samme linje*/
                 display: inline;
+                line-height: 3em;
             }
 
             #mainFooter{
                 /*hvordan baren som sitter på bånnen av siden ser ut*/
                 background-color: var(--pri-col-d2);
+                color: var(--pri-col-l1);
+                font-weight: 800;
                 text-align: center;
                 width: 100%;
                 margin-top: 0;
