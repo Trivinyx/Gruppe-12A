@@ -120,30 +120,59 @@
             }
     </style>
 </head>
-<body>
-    <!--header på toppen av siden -->
-    <header id="mainHeader">
-        <!--class contaier er for og kunne definere standarbredden på tekst i dokumentet uten og påvirke backgrunn-->
-        <div class="container">
-            <h1>Gruppe&nbsp;12A</h1>
-        </div>
-    </header>
-    <!--navbar er en form for navigasjon til ulike steder til dette og eksterne dokumenter-->
-    <nav id="navbar">
-        <div class="container">
-            <ul>
-                <li><a class="button" href="index.html">Home</a></li>
-                <li><a class="button" href="#">HWR Report</a></li>
-                <li><a class="button" href="how-we-roll.html">HWR</a></li>
-            </ul>
-        </div>
-    </nav>
-    <p>Her kommer siden med how we roll rapporten.</p>
-    <!--Footer på bånnen av siden-->
-    <footer id="mainFooter">
-        <div class="container">
-            <p>Gruppe 12A, 2021</p>
-        </div>
-    </footer>
+<body>  
+  <!--header på toppen av siden -->
+  <header id="mainHeader">
+    <!--class contaier er for og kunne definere standarbredden på tekst i dokumentet uten og påvirke backgrunn-->
+    <div class="container">
+        <h1>Gruppe&nbsp;12A</h1>
+    </div>
+  </header>
+  <!--navbar er en form for navigasjon til ulike steder til dette og eksterne dokumenter-->
+  <nav id="navbar">
+    <div class="container">
+        <ul>
+            <li><a class="button" href="index.html">Home</a></li>
+            <li><a class="button" href="#">HWR Report</a></li>
+            <li><a class="button" href="how-we-roll.html">HWR</a></li>
+        </ul>
+    </div>
+  </nav>
+  <p>Her kommer siden med how we roll rapporten.</p>
+  <!--Footer på bånnen av siden-->
+  <footer id="mainFooter">
+    <div class="container">
+        <p>Gruppe 12A, 2021</p>
+    </div>
+    <script>
+        //fetch('https://bacit.info/hwr/"time"-"trxid".json') sett inn time og trxid av formen du vil skal bli brukt, fjern "
+        //  .then(response => response.json()) svaret fra server.
+        //  .then(data => console.log(data)); logger til nettleser consoll
+        // tom sin innsending
+        fetch('https://bacit.info/hwr/20211006130929-0ba1708726f2e09eecf5a8375b7da96b.json')
+            .then(response => response.json())
+            .then(data => console.log(data));
+        //Thomas sin innsending
+        fetch('https://bacit.info/hwr/"-".json')
+            .then(response => response.json())
+            .then(data => console.log(data));
+        //Mats sin innsending
+        fetch('https://bacit.info/hwr/"-".json')
+            .then(response => response.json())
+            .then(data => console.log(data));
+        //Sunniva sin innsending
+        fetch('https://bacit.info/hwr/"-".json')
+            .then(response => response.json())
+            .then(data => console.log(data));
+        //Cathrine sin innsending
+        fetch('https://bacit.info/hwr/"-".json')
+            .then(response => response.json())
+            .then(data => console.log(data));
+        //Ansu sin innsending
+        fetch('https://bacit.info/hwr/"-".json')
+            .then(response => response.json())
+            .then(data => console.log(data));
+    </script>
+  </footer>
 </body>
 </html>
