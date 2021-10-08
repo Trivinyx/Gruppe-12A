@@ -618,8 +618,175 @@
         //Ansu sin innsending
         fetch('https://bacit.info/hwr/20211008082100-a17cf0b294acff67c51a339d20162a6b.json')
             .then(response => response.json())
-            .then(data => console.log(data));
-        console.log(forms)
+            .then(data => {
+                console.log(data)
+                        document.querySelector("#debug").innerText = data.fnavn + " " + data
+                        .mona+ " " + data.aila+ " " + data.dify+ " " + data.vime+ " " + data
+                        .inkfog+ " " + data.josjos+ " " + data.stosmå+ " " + data.plako+ " "
+                    + data.lokre+ " " + data.tobntob+ " " + data.kate+ " " + data.anki+
+                    " " + data.doframo;console.log(data);
+
+                var c = canvas.getContext('2d');
+                var color = "pink"
+
+                var X = 70 + parseInt(data.mona, 10);
+                var Y = 12;
+                var R = 5;
+                c.beginPath();
+                c.arc(X, Y, R, 0, 2*Math.PI, false);
+                c.fillStyle = color;
+                c.fill();
+                c.lineWidth = 1;
+                c.strokeStyle = "black";
+                c.stroke();
+                //context.closePath();
+
+                var X = 70 + parseInt(data.aila, 10);
+                var Y = 42;
+                var R = 5;
+                c.beginPath();
+                c.arc(X, Y, R, 0, 2*Math.PI, false);
+                c.fillStyle = color;
+                c.fill();
+                c.lineWidth = 1;
+                c.strokeStyle = "black";
+                c.stroke();
+
+                var X = 70 + parseInt(data.dify, 10);
+                var Y = 72;
+                var R = 5;
+                c.beginPath();
+                c.arc(X, Y, R, 0, 2*Math.PI, false);
+                c.fillStyle = color;
+                c.fill();
+                c.lineWidth = 1;
+                c.strokeStyle = "black";
+                c.stroke();
+
+                var X = 70 + parseInt(data.stosmå, 10);
+                var Y = 102;
+                var R = 5;
+                c.beginPath();
+                c.arc(X, Y, R, 0, 2*Math.PI, false);
+                c.fillStyle = color;
+                c.fill();
+                c.lineWidth = 1;
+                c.strokeStyle = "black";
+                c.stroke();
+
+                var X = 70 + parseInt(data.plako, 10);
+                var Y = 132;
+                var R = 5;
+                c.beginPath();
+                c.arc(X, Y, R, 0, 2*Math.PI, false);
+                c.fillStyle = color;
+                c.fill();
+                c.lineWidth = 1;
+                c.strokeStyle = "black";
+                c.stroke();
+
+                var X = 70 + parseInt(data.lokre, 10);
+                var Y = 162;
+                var R = 5;
+                c.beginPath();
+                c.arc(X, Y, R, 0, 2*Math.PI, false);
+                c.fillStyle = color;
+                c.fill();
+                c.lineWidth = 1;
+                c.strokeStyle = "black";
+                c.stroke();
+
+                var X = 70 + parseInt(data.tobntob, 10);
+                var Y = 192;
+                var R = 5;
+                c.beginPath();
+                c.arc(X, Y, R, 0, 2*Math.PI, false);
+                c.fillStyle = color;
+                c.fill();
+                c.lineWidth = 1;
+                c.strokeStyle = "black";
+                c.stroke();
+
+                var X = 70 + parseInt(data.kate, 10);
+                var Y = 222;
+                var R = 5;
+                c.beginPath();
+                c.arc(X, Y, R, 0, 2*Math.PI, false);
+                c.fillStyle = color;
+                c.fill();
+                c.lineWidth = 1;
+                c.strokeStyle = "black";
+                c.stroke();
+
+                var X = 70 + parseInt(data.anki, 10);
+                var Y = 252;
+                var R = 5;
+                c.beginPath();
+                c.arc(X, Y, R, 0, 2*Math.PI, false);
+                c.fillStyle = color;
+                c.fill();
+                c.lineWidth = 1;
+                c.strokeStyle = "black";
+                c.stroke();
+
+                var X = 70 + parseInt(data.doframo, 10);
+                var Y = 282;
+                var R = 5;
+                c.beginPath();
+                c.arc(X, Y, R, 0, 2*Math.PI, false);
+                c.fillStyle = color;
+                c.fill();
+                c.lineWidth = 1;
+                c.strokeStyle = "black";
+                c.stroke();
+
+                var X = 70 + parseInt(data.josjos, 10);
+                var Y = 312;
+                var R = 5;
+                c.beginPath();
+                c.arc(X, Y, R, 0, 2*Math.PI, false);
+                c.fillStyle = color;
+                c.fill();
+                c.lineWidth = 1;
+                c.strokeStyle = "black";
+                c.stroke();
+
+                var X = 70 + parseInt(data.inkfog, 10);
+                var Y = 342;
+                var R = 5;
+                c.beginPath();
+                c.arc(X, Y, R, 0, 2*Math.PI, false);
+                c.fillStyle = color;
+                c.fill();
+                c.lineWidth = 1;
+                c.strokeStyle = "black";
+                c.stroke();
+
+                var X = 70 + parseInt(data.vime, 10);
+                var Y = 372;
+                var R = 5;
+                c.beginPath();
+                c.arc(X, Y, R, 0, 2*Math.PI, false);
+                c.fillStyle = color;
+                c.fill();
+                c.lineWidth = 1;
+                c.strokeStyle = "black";
+                c.stroke();
+
+                var X = 20;
+                var Y = 432;
+                var R = 5;
+                c.beginPath();
+                c.arc(X, Y, R, 0, 2*Math.PI, false);
+                c.fillStyle = color;
+                c.fill();
+                c.lineWidth = 1;
+                c.strokeStyle = "black";
+                c.stroke();
+
+                c.fillStyle = "black"
+                c.fillText(data.fnavn,30,465)
+            });
 
 
 
