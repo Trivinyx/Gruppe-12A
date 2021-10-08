@@ -124,6 +124,10 @@
                 margin: 0 20%;
                 alignment: center;
             }
+            #titleRap{
+                text-align: center;
+                text-shadow: 3px 3px 10px rgba(0,0,0,0.5);
+            }
     </style>
 </head>
 <body>  
@@ -144,8 +148,11 @@
         </ul>
     </div>
   </nav>
-  <div id="debug"></div>
-  <canvas id="can"></canvas>
+  <section>
+      <h2 id="titleRap">Rapport fra "How We Roll"</h2>
+      <canvas id="can"></canvas>
+      <div id="debug"></div>
+  </section>
   <!--Footer på bunnen av siden-->
   <footer id="mainFooter">
     <div class="container">
@@ -153,7 +160,105 @@
     </div>
     <script>
         let canvas = document.querySelector("canvas");
-        canvas.height = window.innerHeight
+        canvas.height = 600;
+
+        var c = canvas.getContext('2d');
+
+        c.font = '10px serif';
+        //mona
+        c.fillText('Morgenfugl', 14, 15);
+        c.fillText('Nattugle', 180, 15);
+
+        c.beginPath();
+        c.moveTo(70,12);
+        c.lineTo(170,12);
+
+        //aila
+        c.fillText('Arbeide i lag', 10, 45);
+        c.fillText('Alene', 180, 45);
+
+        //context.beginPath();
+        c.moveTo(70,42);
+        c.lineTo(170,42);
+
+
+        //dify
+        c.fillText('Digitalt', 32, 75);
+        c.fillText('Fysisk', 180, 75);
+
+        c.moveTo(70,72);
+        c.lineTo(170,72);
+
+        //stosmå
+        c.fillText('Stor gruppe', 17, 105);
+        c.fillText('Liten Gruppe', 180, 105);
+
+        c.moveTo(70,102);
+        c.lineTo(170,102);
+
+        //plako
+        c.fillText('Planlegg', 30, 135);
+        c.fillText('Når som helst', 180, 135);
+
+        c.moveTo(70,132);
+        c.lineTo(170,132);
+
+        //lokre
+        c.fillText('Logisk', 38, 165);
+        c.fillText('Kreativ', 180, 165);
+
+        c.moveTo(70,162);
+        c.lineTo(170,162);
+
+        //tobntob
+        c.fillText('To Be', 40, 195);
+        c.fillText('Not To Be', 180, 195);
+
+        c.moveTo(70,192);
+        c.lineTo(170,192);
+
+        //kate
+        c.fillText('Kaffe', 40, 225);
+        c.fillText('Te', 180, 225);
+
+        c.moveTo(70,222);
+        c.lineTo(170,222);
+
+        //anki
+        c.fillText('Ananas Pizza', 10, 255);
+        c.fillText('Ikke', 180, 255);
+
+        c.moveTo(70,252);
+        c.lineTo(170,252);
+
+        //doframo
+        c.fillText('Dorull Ut', 26, 285);
+        c.fillText('Dorull Inn', 180, 285);
+
+        c.moveTo(70,282);
+        c.lineTo(170,282);
+
+        //josjos
+        c.fillText('Jobbe I Tiden', 10, 315);
+        c.fillText('Jobbe i Seget', 180, 315);
+
+        c.moveTo(70,312);
+        c.lineTo(170,312);
+
+        //inkfog
+        c.fillText('Inkluder', 32, 345);
+        c.fillText('Bli beskrevet', 180, 345);
+
+        c.moveTo(70,342);
+        c.lineTo(170,342);
+
+        //vime
+        c.fillText('Video chat', 22, 375);
+        c.fillText('Melding', 180, 375);
+
+        c.moveTo(70,372);
+        c.lineTo(170,372);
+        c.stroke();
 
         //fetch('https://bacit.info/hwr/"time"-"trxid".json') sett inn time og trxid av formen du vil skal bli brukt, fjern "
         //  .then(response => response.json()) svaret fra server.
@@ -164,109 +269,12 @@
             .then(response => response.json())
             .then(data => {
                 console.log(data);
-                document.querySelector("#debug").innerText = data.fnavn + " " + data
-                .mona+ " " + data.aila+ " " + data.dify+ " " + data.vime+ " " + data
-                .inkfog+ " " + data.josjos+ " " + data.stosmå+ " " + data.plako+ " "
-                + data.lokre+ " " + data.tobntob+ " " + data.kate+ " " + data.anki+
-                " " + data.doframo;
+                //document.querySelector("#debug").innerText = data.fnavn + " " + data
+                //.mona+ " " + data.aila+ " " + data.dify+ " " + data.vime+ " " + data
+                //.inkfog+ " " + data.josjos+ " " + data.stosmå+ " " + data.plako+ " "
+                //+ data.lokre+ " " + data.tobntob+ " " + data.kate+ " " + data.anki+
+                //" " + data.doframo;
 
-                var c = canvas.getContext('2d');
-
-                c.font = '10px serif';
-                //mona
-                c.fillText('Morgenfugl', 14, 15);
-                c.fillText('Nattugle', 180, 15);
-
-                c.beginPath();
-                c.moveTo(70,12);
-                c.lineTo(170,12);
-
-                //aila
-                c.fillText('Arbeide i lag', 10, 45);
-                c.fillText('Alene', 180, 45);
-
-                //context.beginPath();
-                c.moveTo(70,42);
-                c.lineTo(170,42);
-
-
-                //dify
-                c.fillText('Digitalt', 32, 75);
-                c.fillText('Fysisk', 180, 75);
-
-                c.moveTo(70,72);
-                c.lineTo(170,72);
-
-                //stosmå
-                c.fillText('Stor gruppe', 17, 105);
-                c.fillText('Liten Gruppe', 180, 105);
-
-                c.moveTo(70,102);
-                c.lineTo(170,102);
-
-                //plako
-                c.fillText('Planlegg', 30, 135);
-                c.fillText('Når som helst', 180, 135);
-
-                c.moveTo(70,132);
-                c.lineTo(170,132);
-
-                //lokre
-                c.fillText('Logisk', 38, 165);
-                c.fillText('Kreativ', 180, 165);
-
-                c.moveTo(70,162);
-                c.lineTo(170,162);
-
-                //tobntob
-                c.fillText('To Be', 40, 195);
-                c.fillText('Not To Be', 180, 195);
-
-                c.moveTo(70,192);
-                c.lineTo(170,192);
-
-                //kate
-                c.fillText('Kaffe', 40, 225);
-                c.fillText('Te', 180, 225);
-
-                c.moveTo(70,222);
-                c.lineTo(170,222);
-
-                //anki
-                c.fillText('Ananas Pizza', 10, 255);
-                c.fillText('Ikke', 180, 255);
-
-                c.moveTo(70,252);
-                c.lineTo(170,252);
-
-                //doframo
-                c.fillText('Dorull Ut', 26, 285);
-                c.fillText('Dorull Inn', 180, 285);
-
-                c.moveTo(70,282);
-                c.lineTo(170,282);
-
-                //josjos
-                c.fillText('Jobbe I Tiden', 10, 315);
-                c.fillText('Jobbe i Seget', 180, 315);
-
-                c.moveTo(70,312);
-                c.lineTo(170,312);
-
-                //inkfog
-                c.fillText('Inkluder', 32, 345);
-                c.fillText('Bli beskrevet', 180, 345);
-
-                c.moveTo(70,342);
-                c.lineTo(170,342);
-
-                //vime
-                c.fillText('Video chat', 22, 375);
-                c.fillText('Melding', 180, 375);
-
-                c.moveTo(70,372);
-                c.lineTo(170,372);
-                c.stroke();
 
                 //her begynner datadottene for tom
 
@@ -436,13 +444,12 @@
             .then(response => response.json())
             .then(data => {
                 console.log(data);
-                document.querySelector("#debug").innerText = data.fnavn + " " + data
-                        .mona+ " " + data.aila+ " " + data.dify+ " " + data.vime+ " " + data
-                        .inkfog+ " " + data.josjos+ " " + data.stosmå+ " " + data.plako+ " "
-                    + data.lokre+ " " + data.tobntob+ " " + data.kate+ " " + data.anki+
-                    " " + data.doframo;console.log(data);
+                //document.querySelector("#debug").innerText = data.fnavn + " " + data
+                //        .mona+ " " + data.aila+ " " + data.dify+ " " + data.vime+ " " + data
+                //        .inkfog+ " " + data.josjos+ " " + data.stosmå+ " " + data.plako+ " "
+                //    + data.lokre+ " " + data.tobntob+ " " + data.kate+ " " + data.anki+
+                //    " " + data.doframo;
 
-                var c = canvas.getContext('2d');
                 var color = "blue"
 
                 var X = 70 + parseInt(data.mona, 10);
@@ -609,13 +616,12 @@
             .then(response => response.json())
             .then(data => {
                 console.log(data);
-                document.querySelector("#debug").innerText = data.fnavn + " " + data
-                        .mona+ " " + data.aila+ " " + data.dify+ " " + data.vime+ " " + data
-                        .inkfog+ " " + data.josjos+ " " + data.stosmå+ " " + data.plako+ " "
-                    + data.lokre+ " " + data.tobntob+ " " + data.kate+ " " + data.anki+
-                    " " + data.doframo;console.log(data);
+                //document.querySelector("#debug").innerText = data.fnavn + " " + data
+                //        .mona+ " " + data.aila+ " " + data.dify+ " " + data.vime+ " " + data
+                //        .inkfog+ " " + data.josjos+ " " + data.stosmå+ " " + data.plako+ " "
+                //    + data.lokre+ " " + data.tobntob+ " " + data.kate+ " " + data.anki+
+                //    " " + data.doframo;
 
-                var c = canvas.getContext('2d');
                 var color = "red"
 
                 var X = 70 + parseInt(data.mona, 10);
@@ -781,13 +787,12 @@
             .then(response => response.json())
             .then(data => {
                 console.log(data);
-                document.querySelector("#debug").innerText = data.fnavn + " " + data
-                        .mona+ " " + data.aila+ " " + data.dify+ " " + data.vime+ " " + data
-                        .inkfog+ " " + data.josjos+ " " + data.stosmå+ " " + data.plako+ " "
-                    + data.lokre+ " " + data.tobntob+ " " + data.kate+ " " + data.anki+
-                    " " + data.doframo;console.log(data);
+                //document.querySelector("#debug").innerText = data.fnavn + " " + data
+                //        .mona+ " " + data.aila+ " " + data.dify+ " " + data.vime+ " " + data
+                //        .inkfog+ " " + data.josjos+ " " + data.stosmå+ " " + data.plako+ " "
+                //    + data.lokre+ " " + data.tobntob+ " " + data.kate+ " " + data.anki+
+                //    " " + data.doframo;
 
-                var c = canvas.getContext('2d');
                 var color = "purple"
 
                 var X = 70 + parseInt(data.mona, 10);
@@ -954,14 +959,12 @@
             .then(response => response.json())
             .then(data => {
                 console.log(data);
-                document.querySelector("#debug").innerText = data.fnavn + " " + data
-                        .mona + " " + data.aila + " " + data.dify + " " + data.vime + " " + data
-                        .inkfog + " " + data.josjos + " " + data.stosmå + " " + data.plako + " "
-                    + data.lokre + " " + data.tobntob + " " + data.kate + " " + data.anki +
-                    " " + data.doframo;
-                console.log(data);
+                //document.querySelector("#debug").innerText = data.fnavn + " " + data
+                //       .mona + " " + data.aila + " " + data.dify + " " + data.vime + " " + data
+                //        .inkfog + " " + data.josjos + " " + data.stosmå + " " + data.plako + " "
+                //    + data.lokre + " " + data.tobntob + " " + data.kate + " " + data.anki +
+                //    " " + data.doframo;
 
-                var c = canvas.getContext('2d');
                 var color = "aqua"
 
                 var X = 70 + parseInt(data.mona, 10);
@@ -1127,15 +1130,13 @@
         fetch('https://bacit.info/hwr/20211008082100-a17cf0b294acff67c51a339d20162a6b.json')
             .then(response => response.json())
             .then(data => {
-                console.log(data)
-                document.querySelector("#debug").innerText = data.fnavn + " " + data
-                        .mona + " " + data.aila + " " + data.dify + " " + data.vime + " " + data
-                        .inkfog + " " + data.josjos + " " + data.stosmå + " " + data.plako + " "
-                    + data.lokre + " " + data.tobntob + " " + data.kate + " " + data.anki +
-                    " " + data.doframo;
                 console.log(data);
+                //document.querySelector("#debug").innerText = data.fnavn + " " + data
+                //        .mona + " " + data.aila + " " + data.dify + " " + data.vime + " " + data
+                //        .inkfog + " " + data.josjos + " " + data.stosmå + " " + data.plako + " "
+                //    + data.lokre + " " + data.tobntob + " " + data.kate + " " + data.anki +
+                //    " " + data.doframo;
 
-                var c = canvas.getContext('2d');
                 var color = "pink"
 
                 var X = 70 + parseInt(data.mona, 10);
