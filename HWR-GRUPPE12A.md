@@ -1,6 +1,7 @@
 # HWR-Gruppe12A
 
-Vi har valgt å dele gruppen inn i 3 kode-par, de tre parene er;
+Vi hadde ikke delt gruppen opp i kodepar når vi startet prosjektjobbing, men fant senere ut at det var en _bedre_ måte og jobbe på, med et utgangspunkt på at vi hadde lært basis html, css og github kunnskaper. 
+De parene vi har valgt å dele gruppen inn i er:
 * Tom og Thomas 
 * Sunniva og Mats
 * Ansu og Cathrine
