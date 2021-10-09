@@ -30,7 +30,7 @@ Da vi skulle velge farger til hjemmesiden fikk alle i oppgave å legge frem et f
 ![den valgte fargepaletten](images/valgt-fargepalett.png)
 
 vi har generellt brukt fargene som vi har valgdt til ca.90% av sidens farger.
-### Begynnelsen av index.html og tidligere visitkort.html
+### Begynnelsen av index.html og tidligere visitkort.html html biten
 I første omgang satt Tom og Thomas sammen og bygde opp selve siden, men de har i senere tid forklart resten av gruppen hva de gjorde #6(Lag en basic hjemmeside index.html).
 de skulle igrunn bare legge inn:
 ```html
@@ -68,6 +68,23 @@ I første omgang lagde Tom og Thomas en egen css fil som de linket fra html doku
 <meta href="style/style.css" rel="stylesheet">
 ```
 Videre så style de index og visittkort fra css filen til å se nesten som den nåværende, før merge av index og visittkort. En annen ting de også gjorde var å style visittkortene.
+det elemntene som ble stylet under denne sesjonen var:
+- Header, backgund og tekst
+- Navbar, med linker, kanpper osv.
+- footer, backgrunn og tekst
+- conteiner for pusterom på siden:
+```css
+ .container{
+            width: 80%;
+            min-width: 275px;
+            margin: auto;
+        }
+```
+- noen mideltige farger
+
+### Etter denne starten
+Når Tom og thomas hadde sittet og lagd det som blir beskrevet over, tok Tom og delte skjerm, viste hva som var gjort, forklarte de individuelle tingene i html og css, tok imot feedback. dette førte til at alle på gruppen var inneforstått med hva som var gjort og hvordan det fungerte selvom de ikke direkte hadde skrevet det.
+I etkkerant av dette ble det satt opp issues for fargevalg #13 og inleggelse av dette #14, andre issues som ble satt opp var at alle skulle legge inn hver sin bit på navn og infor. vi ble enige om at Rollen skulle være IT student.
 
 Bug-fix, endringer og kontroller; Vi har brukt Github til å komme med forslag til eventuelle endringer og fiksing av bugs. 
 #15 (fikse centrering av vissitkort) - Få kortene til å være centrert i CSS, etter at de begynner å legge seg på linje. Og #23 (fikse at kortene flyttes når bildet ikke finnes) Dette ble fikset da issue #15 ble fikset på. 
