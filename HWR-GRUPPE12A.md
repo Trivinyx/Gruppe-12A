@@ -62,6 +62,12 @@ De gjorde det samme med Vissitkort.html, og la inn en røff version av kortene i
      </div>
 </div>
 ```
+### Kort om hvordan vi startet med CSS
+I første omgang lagde Tom og Thomas en egen css fil som de linket fra html dokumetet. 
+```html 
+<meta href="style/style.css" rel="stylesheet">
+```
+Videre så style de index og visittkort fra css filen til å se nesten som den nåværende, før merge av index og visittkort. En annen ting de også gjorde var å style visittkortene.
 
 Bug-fix, endringer og kontroller; Vi har brukt Github til å komme med forslag til eventuelle endringer og fiksing av bugs. 
 #15 (fikse centrering av vissitkort) - Få kortene til å være centrert i CSS, etter at de begynner å legge seg på linje. Og #23 (fikse at kortene flyttes når bildet ikke finnes) Dette ble fikset da issue #15 ble fikset på. 
