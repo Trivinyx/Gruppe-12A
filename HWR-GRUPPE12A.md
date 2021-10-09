@@ -22,4 +22,16 @@ Mats og Sunniva lagde filen som heter how-we-roll.html. Der de også la inn basi
 
 Til form i HWR valgte vi å lage tre forskjellige brancher med forslag fra hvert kode-par #41, #42 og #43 (Lag utkast til form i how-we-roll.html), alle medlemmer på gruppen så igjennom de tre forskjellige forslagene og stemte på den de likte best. Vi bestemte oss for å ta utgangspunkt i branchen som heter HWR-form-3 #43.
 
+#53 - Lagt inn standar stylen vi brukte på index.html til HWR-report.html. (Navbar, footer, body og css klasser.
+#55 - Lagt til javascript i how-we-roll-html, hentet fra: https://github.com/digitnow/how-we-roll
+
+#56- Laget et canvas element, for å vise frem dataene samlet inn i .json filer fra how-we-roll.html formen.
+#57 - Lagt inn javascript til henting av data i HWR-report.html, javascript er hentet fra: https://github.com/digitnow/how-we-roll 
+
+#61 - Diskusjon - Komme med endringer eller nye spørsmål til HWR.html, #62 - Legge inn endelige spørsmål på HWR.html
+
+#65 (universell utforming)
+
 Forandringer knyttet til issue #66: Endret fargekontraster for bedere leslighet på alle html dokumenter. Gjort om på skygge på knapper, og fikset at skyggen ikke blir grønn når en trykker på den. Fjernet border tykkelsesforandring på knappene når en hovrer. Endret på transparanse verdi på visitkort kortene. Lagdt til tekstfarge på onHover effeckten til visitkortene slik at de er lettere og lese når man hovrere over de. Navbar backgrunns size, linjehøyde på knapper så de ikke overlapper. Forandret på visuell framstilling av html coden i teksteditor for hwr-report.html
+
+#68 - Legge inn sin egen form url link i hwr-report i script (Fylle inn trxid og timestamp)
