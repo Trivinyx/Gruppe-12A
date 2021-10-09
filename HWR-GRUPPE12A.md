@@ -1,6 +1,10 @@
 # HWR-Gruppe12A
 
-Vi har valgt å dele gruppen inn i 3 kode-par, de tre parene er; Tom og Thomas, Sunniva og Mats, og Ansu og Cathrine. Dette har vi gjort for at det skal være lettere å jobbe med flere oppgaver samtidig, og at alle skal få bidratt like mye. I tilegg har Tom fått i oppgave å være ansvarlig for all merging, slik at prosessen blir mer ryddig og oversiktlig.
+Vi har valgt å dele gruppen inn i 3 kode-par, de tre parene er;
+* Tom og Thomas 
+* Sunniva og Mats
+* Ansu og Cathrine. 
+Dette har vi gjort for at det skal være lettere å jobbe med flere oppgaver samtidig, og at alle skal få bidratt like mye. I tilegg har Tom fått i oppgave å være ansvarlig for all merging, slik at prosessen blir mer ryddig og oversiktlig.
 
 Da vi startet brukte vi github for å bli enige om layout på vissitkort. Her kom alle med hvert sitt forslag, deretter stemte vi på det forslaget vi likte best #3(Forslag til vissitkort Layout).
 ![blide av visittkortforslag](images/Visittkort-forslag.png)
