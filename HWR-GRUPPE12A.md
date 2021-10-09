@@ -96,8 +96,8 @@ Vi har en egen issue for diskusjon til forslag til utbedringer og/eller endringe
 Tom og Thomas fikk i opgave å kommentere all koden til html og css filer i index.html filen vår #19(Kommentere koden til html og css filer). 
 
 ### Når vi fikk oppdatert oppgave info
-første som ble gjort når vi fikk denne var og lage issues på filer som skulle lages. når dette var gjort var det å få det eksisterende arbeidet som var gjort til og bli akseptert under de nue retningslinjene som denne konkritiseringen av oppgaven ga oss.
-Vi løste det ved at Tom tok contentet fra vissitkort og paste over til Index, mens Thomas og Sunniva så på #27(Merge index.html og vissitkort.html). Vi hadde lagd hver sin fil til html og css, så Tom fikk i oppgave å ta css filen sitt inhold fra style.css og implimentere det inn i html-dokumentet #28(Take css content from sttyle.css and implement it in the html doc. dette var da Sunniva og Thomas med på prosessen.
+Det første som ble gjort da vi fikk denne var å legge til issues på filer som skulle lages. Da dette var gjort var det å få det eksisterende arbeidet som var gjort til å bli akseptert under de nye retningslinjene som denne konkritiseringen av oppgaven ga oss.
+Vi løste det ved at Tom tok contentet fra vissitkort og pastet det over til Index, mens Thomas og Sunniva så på #27(Merge index.html og vissitkort.html). Vi hadde lagd hver sin fil til html og css, så Tom fikk i oppgave å ta css filen sitt inhold fra style.css og implimentere det inn i html-dokumentet #28(Take css content from sttyle.css and implement it in the html doc. dette var da Sunniva og Thomas med på prosessen.
 
 I forbindelse med dette, var det på dette tispunktet at vi oprette kodepar, og at tom som eier av repositoryet hadde ansvar for og merge opp til main.
 
@@ -108,12 +108,12 @@ I forbindelse med dette, var det på dette tispunktet at vi oprette kodepar, og 
 Grunnen til at disse parene gjorde dette er at tom og thomas hadde gjort en god del fra før av.
 
 ### HWR-Form
-når det kom til innholde i HWR.html, bestemte vi oss for at alle parene skulle produsere sitt egedt forslag i ver sin branch på hvordan formen skulle være. dette ble satt opp som seperate issues #41, #42 og #43. linked til vær sin brach og kodepar
+Da det kom til innholdet i HWR.html, bestemte vi oss for at alle parene skulle produsere sitt egedt forslag i hver sin branch på hvordan formen skulle være. Dette ble satt opp som seperate issues #41, #42 og #43. linked til vær sin brach og kodepar
 - #41 HWR-form-1, Tom og Thomas
 - #42 HWR-form-2, Cathrine og Ansu
 - #43 HWR-form-3, Sunniva og Mats
 
-vi valgdte utifra alle sine ferdige forslag og merge brachen HWR-form-3 til Main, og bygge videre på denne.
+Vi valgdte utifra alle sine ferdige forslag å merge brachen HWR-form-3 til Main, og bygge videre på denne.
 
 #53 - Lagt inn standar stylen vi brukte på index.html til HWR-report.html. (Navbar, footer, body og css klasser.
 #55 - Lagt til javascript i how-we-roll-html, hentet fra: https://github.com/digitnow/how-we-roll
