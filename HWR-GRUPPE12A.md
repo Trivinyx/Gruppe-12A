@@ -1,5 +1,5 @@
 # HWR-Gruppe12A
-**Gruppe Medelemmer og deres github navn:
+**Gruppe Medelemmer og deres github navn:**
 * Tom André - @Trivinyx
 * Thomas - @GreaToms
 * Ansu - @kitzch
