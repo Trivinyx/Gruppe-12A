@@ -110,8 +110,9 @@ Da det kom til innholdet i HWR.html, bestemte vi oss for at alle parene skulle p
 - #43 HWR-form-3, Sunniva og Mats
 
 Vi valgdte utifra alle sine ferdige forslag å merge brachen HWR-form-3 til Main, og bygge videre på denne.
+
 ### Innspurten og finpuss
-Vi kaller dette inspurt og finpuss, forde det er denne delen som har hatt høyt tempo og mye ferdigstilling av koden. noe ting som har blitt gjennomført under denne biten er:
+Vi kaller dette inspurt og finpuss, forde det er denne delen som har hatt høyt tempo og mye ferdigstilling av koden. Her er noen ting som har blitt gjennomført under denne biten er:
 - #53 - Lagt inn standar stylen vi brukte på index.html til HWR-report.html. (Navbar, footer, body og css klasser.
 - #55 - Lagt til javascript i how-we-roll-html, hentet fra: https://github.com/digitnow/how-we-roll
 - #56- Laget et canvas element, for å vise frem dataene samlet inn i .json filer fra how-we-roll.html formen.
@@ -132,7 +133,7 @@ Vi kaller dette inspurt og finpuss, forde det er denne delen som har hatt høyt 
                 });
 ```
 #### Annet finpuss
-vi har i løpet av prosjektet også lagdt til effekter på visitkorten, sånn at når en hovrer forandrer de seg. det har blitt gjort andre finpusser iløpet av prosjektet som ikke er like merkverdige, med unntak av tillege hvor navigasjonsbaren og footeren vår fester seg respektivt til toppen og bunnen av siden. navbaren fester seg når idet den blir passert.
+Vi har i løpet av prosjektet også lagtt til effekter på visitkorten, sånn at når en hovrer forandrer de seg. Det har blitt gjort andre finpusser iløpet av prosjektet som ikke er like merkverdige, med unntak av tillege hvor navigasjonsbaren og footeren vår fester seg respektivt til toppen og bunnen av siden. navbaren fester seg når idet den blir passert.
 
 Kortene:
 ```Css
@@ -190,5 +191,5 @@ Festingen av Footer og navbar:
 *#65 (universell utforming)
 Forandringer knyttet til issue #66: Endret fargekontraster for bedere leslighet på alle html dokumenter. Gjort om på skygge på knapper, og fikset at skyggen ikke blir grønn når en trykker på den. Fjernet border tykkelsesforandring på knappene når en hovrer. Endret på transparanse verdi på visitkort kortene. Lagdt til tekstfarge på onHover effeckten til visitkortene slik at de er lettere og lese når man hovrere over de. Navbar backgrunns size, linjehøyde på knapper så de ikke overlapper. Forandret på visuell framstilling av html coden i teksteditor for hwr-report.html*
 
-vi ønsket at siden skulle best mulig følge de normen som er satt for nettsider, så tom satt seg ned og utforsket hvilke contrast feil vi hadde i forhold til universell utforming blant andre.
+Vi ønsket at siden skulle best mulig følge de normen som er satt for nettsider, så Tom satt seg ned og utforsket hvilke kontrast feil vi hadde i forhold til universell utforming blant andre.
 
