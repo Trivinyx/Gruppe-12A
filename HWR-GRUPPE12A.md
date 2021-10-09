@@ -1,6 +1,8 @@
 # HWR-Gruppe12A
 
-Vi hadde ikke delt gruppen opp i kodepar når vi startet prosjektjobbing, men fant senere ut at det var en _bedre_ måte og jobbe på, med et utgangspunkt på at vi hadde lært basis html, css og github kunnskaper. 
+### Hvordan vi har valgt og arbeide, og fordeling av repitive oppgaver og ansvar
+Vi hadde ikke delt gruppen opp i kodepar når vi startet prosjektjobbing, men fant senere ut at det var en _bedre_ måte og jobbe på, med et utgangspunkt på at vi hadde lært basis html, css og github kunnskaper.
+
 De parene vi har valgt å dele gruppen inn i er:
 * Tom og Thomas 
 * Sunniva og Mats
@@ -8,6 +10,7 @@ De parene vi har valgt å dele gruppen inn i er:
  
 Dette har vi gjort for at det skal være lettere å jobbe med flere oppgaver samtidig, og at alle skal få bidratt like mye. I tilegg har Tom fått i oppgave å være ansvarlig for all merging, slik at prosessen blir mer ryddig og oversiktlig.
 
+### Design og utfroming, pre og etter
 Da vi startet brukte vi github for å bli enige om layout på vissitkort. Her kom alle med hvert sitt forslag, deretter stemte vi på det forslaget vi likte best #3(Forslag til vissitkort Layout).
 ![blide av visittkortforslag](images/Visittkort-forslag.png)
 Vi endte opp med og bytte plassering av tekst og bilde i resultatet.
