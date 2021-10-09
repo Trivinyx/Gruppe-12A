@@ -1,4 +1,4 @@
-# HWR-Gruppe12A>#
+# HWR-Gruppe12A
 
 Vi har valgt å dele gruppen inn i 3 kode-par, de tre parene er; Tom og Thomas, Sunniva og Mats, og Ansu og Cathrine. Dette har vi gjort for at det skal være lettere å jobbe med flere oppgaver samtidig, og at alle skal få bidratt like mye. I tilegg har Tom fått i oppgave å være ansvarlig for all merging, slik at prosessen blir mer ryddig og oversiktlig.
 
