@@ -8,7 +8,7 @@ I første omgang satt Tom og Thomas sammen og bygde opp selve siden, men de har 
 Etter dette brukte vi Github for å samle bilder og innhold til vissitkortene til alle i gruppen. Oppgaven om å legge inn informasjonen og bildene ble fordelt på to forskjellige personer.
 
 Da vi skulle velge farger til hjemmesiden fikk alle i oppgave å legge frem et forslag av et fargepallet #13(Vis frem en farge plaett fra www.paletton.com som kan passe til nettsiden). Etter det stemte vi over hvilke vi likte best, og så fikk Cathrine i oppgave å legge det inn i CSS #14(Legge inn fargepalett som er valgt).
-![den valgte fargepaletten](images/valg-fargepalett.png)
+![den valgte fargepaletten](images/valgt-fargepalett.png)
 vi har generellt brukt fargene som vi har valgdt til ca.90% av sidens farger.
 
 Bug-fix, endringer og kontroller; Vi har brukt Github til å komme med forslag til eventuelle endringer og fiksing av bugs. 
