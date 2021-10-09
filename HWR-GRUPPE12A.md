@@ -1,6 +1,8 @@
 Vi har valgt å dele gruppen inn i 3 kode-par, de tre parene er; Tom og Thomas, Sunniva og Mats, og Ansu og Cathrine. Dette har vi gjort for at det skal være lettere å jobbe med flere oppgaver samtidig, og at alle skal få bidratt like mye. I tilegg har Tom fått i oppgave å være ansvarlig for all merging, slik at prosessen blir mer ryddig og oversiktlig.
 
 Da vi startet brukte vi github for å bli enige om layout på vissitkort. Her kom alle med hvert sitt forslag, deretter stemte vi på det forslaget vi likte best #3(Forslag til vissitkort Layout).
+![blide av visittkortforslag](https://Trivinyx.github.com/Gruppe-12A/images/visittkort-forslag.png)
+
 I første omgang satt Tom og Thomas sammen og bygde opp selve siden, men de har i senere tid forklart resten av gruppen hva de gjorde #6(Lag en basic hjemmeside index.html). 
 Etter dette brukte vi Github for å samle bilder og innhold til vissitkortene til alle i gruppen. Oppgaven om å legge inn informasjonen og bildene ble fordelt på to forskjellige personer.
 
