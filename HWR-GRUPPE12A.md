@@ -1,7 +1,7 @@
 # HWR-Gruppe12A
 
 ### Hvordan vi har valgt og arbeide, og fordeling av repitive oppgaver og ansvar
-Da vi startet prosjektarbeidet hadde vi ikke dekt gruppen opp par, men etter at vi hadde jobbet jobbet litt, fant vi fort ut av at dette var en _bedre_ måte og jobbe på. Da vi fordelte parene, tok vi utgangspunkti det vi hadde lært om basis html og css og github kunnskaper.
+Da vi startet prosjektarbeidet hadde vi ikke dekt gruppen opp par, men etter at vi hadde jobbet jobbet litt, fant vi fort ut av at dette var en _bedre_ måte og jobbe på. Når vi da fordelte gruppen inn i kodeparene, tok vi utgangspunkt i det vi hadde lært om basis html og css og github kunnskaper.
 
 De parene vi har valgt å dele gruppen inn i er:
 * Tom og Thomas 
