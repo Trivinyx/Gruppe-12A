@@ -8,7 +8,7 @@
 * Cathrine - @Cathrinerh
 
 ### Hvordan vi har valgt og arbeide, og fordeling av repitive oppgaver og ansvar
-Vi hadde ikke delt gruppen opp i kodepar når vi startet prosjektjobbing, men fant senere ut at det var en _bedre_ måte og jobbe på, med et utgangspunkt på at vi hadde lært basis html, css og github kunnskaper.
+Da vi startet å jobbe på prosjektarbeidet, hadde vi ikke delt opp gruppen, men etter vi hadde jobbet litt, fant vi ut at dette var en _bedre_ måte å jobbe på. Når vi da skulle dele gruppen inn i kodepar, tok vi utgangspunkt i det vi hadde lært om basis html og css og gihub kunnnskaper.
 
 De parene vi har valgt å dele gruppen inn i er:
 * Tom og Thomas 
