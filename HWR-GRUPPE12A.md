@@ -43,7 +43,7 @@ de skulle igrunn bare legge inn:
      </body>
 </html>
 ```
-Men ente opp med og bli litt revet med i skrivingen. så de ente opp med og lage index.html som den så ut før den ble merget med vissitkort.html. innholde som de lagde i index var: 
+Endte opp med å bli litt revet med i skrivingen, så de lage en index.html som den så ut før den ble merget med vissitkort.html. Innholde som de lagde i index var: 
 - En header, med gruppenavn
 - En navbar, med fungerende link knapper
 - En content section med dummytekst
