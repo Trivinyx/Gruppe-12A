@@ -19,8 +19,10 @@ Dette har vi gjort for at det skal være lettere å jobbe med flere oppgaver sam
 
 ### Design og utfroming, pre og etter
 Da vi startet brukte vi github for å bli enige om layout på vissitkort. Her kom alle med hvert sitt forslag, deretter stemte vi på det forslaget vi likte best #3 (Forslag til vissitkort Layout).
+
 ![blide av visittkortforslag](images/Visitkort-forslag.png)
-Vi endte opp med og bytte plassering av tekst og bilde i resultatet.
+
+Vi endte opp med å bytte plassering av tekst og bilde i resultatet.
  
 Etter dette brukte vi Github for å samle bilder og innhold til vissitkortene til alle i gruppen. Oppgaven om å legge inn informasjonen og bildene ble fordelt på to forskjellige personer.
 
