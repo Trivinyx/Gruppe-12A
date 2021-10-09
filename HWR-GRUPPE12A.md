@@ -1,7 +1,14 @@
 # HWR-Gruppe12A
+**Gruppe Medelemmer og deres github navn:
+* Tom André - @Trivinyx
+* Thomas - @GreaToms
+* Ansu - @kitzch
+* Mats - @Karstad
+* Sunniva - @sunnivalien
+* Cathrine - @Cathrinerh
 
 ### Hvordan vi har valgt og arbeide, og fordeling av repitive oppgaver og ansvar
-Da vi startet prosjektarbeidet hadde vi ikke dekt gruppen opp par, men etter at vi hadde jobbet jobbet litt, fant vi fort ut av at dette var en _bedre_ måte og jobbe på. Når vi da fordelte gruppen inn i kodeparene, tok vi utgangspunkt i det vi hadde lært om basis html og css og github kunnskaper.
+Vi hadde ikke delt gruppen opp i kodepar når vi startet prosjektjobbing, men fant senere ut at det var en _bedre_ måte og jobbe på, med et utgangspunkt på at vi hadde lært basis html, css og github kunnskaper.
 
 De parene vi har valgt å dele gruppen inn i er:
 * Tom og Thomas 
@@ -14,14 +21,16 @@ Dette har vi gjort for at det skal være lettere å jobbe med flere oppgaver sam
 Da vi startet brukte vi github for å bli enige om layout på vissitkort. Her kom alle med hvert sitt forslag, deretter stemte vi på det forslaget vi likte best #3(Forslag til vissitkort Layout).
 ![blide av visittkortforslag](images/Visittkort-forslag.png)
 Vi endte opp med og bytte plassering av tekst og bilde i resultatet.
-
-I første omgang satt Tom og Thomas sammen og bygde opp selve siden, men de har i senere tid forklart resten av gruppen hva de gjorde #6(Lag en basic hjemmeside index.html). 
+ 
 Etter dette brukte vi Github for å samle bilder og innhold til vissitkortene til alle i gruppen. Oppgaven om å legge inn informasjonen og bildene ble fordelt på to forskjellige personer.
 
 Da vi skulle velge farger til hjemmesiden fikk alle i oppgave å legge frem et forslag av et fargepallet #13(Vis frem en farge plaett fra www.paletton.com som kan passe til nettsiden). Etter det stemte vi over hvilke vi likte best, og så fikk Cathrine i oppgave å legge det inn i CSS #14(Legge inn fargepalett som er valgt).
 ![den valgte fargepaletten](images/valgt-fargepalett.png)
 
 vi har generellt brukt fargene som vi har valgdt til ca.90% av sidens farger.
+### Begynnelsen av index.html og tidligere visitkort.html
+I første omgang satt Tom og Thomas sammen og bygde opp selve siden, men de har i senere tid forklart resten av gruppen hva de gjorde #6(Lag en basic hjemmeside index.html).
+
 
 Bug-fix, endringer og kontroller; Vi har brukt Github til å komme med forslag til eventuelle endringer og fiksing av bugs. 
 #15 (fikse centrering av vissitkort) - Få kortene til å være centrert i CSS, etter at de begynner å legge seg på linje. Og #23 (fikse at kortene flyttes når bildet ikke finnes) Dette ble fikset da issue #15 ble fikset på. 
