@@ -7,6 +7,10 @@
 * Sunniva:  @sunnivalien
 * Cathrine:  @Cathrinerh
 
+>Repository: [Gruppe-12A](https://github.com/Trivinyx/Gruppe-12A)
+
+>Prosjektside: [Gruppe-12A-IS-Kanban](https://github.com/users/Trivinyx/projects/4)
+
 ### Hvordan vi har valgt og arbeide, og fordeling av repitive oppgaver og ansvar
 Da vi startet å jobbe på prosjektarbeidet, hadde vi ikke delt opp gruppen, men etter vi hadde jobbet litt, fant vi ut at dette var en _bedre_ måte å jobbe på. Når vi da skulle dele gruppen inn i kodepar, tok vi utgangspunkt i det vi hadde lært om basis html og css og gihub kunnnskaper.
 
@@ -119,6 +123,7 @@ Vi kaller dette inspurt og finpuss, forde det er denne delen som har hatt høyt 
 - #57 - Lagt inn javascript til henting av data i HWR-report.html, javascript er hentet fra: https://github.com/digitnow/how-we-roll 
 - #61 - Diskusjon - Komme med endringer eller nye spørsmål til HWR.html, #62 - Legge inn endelige spørsmål på HWR.html
 - #68 - Legge inn sin egen form url link i hwr-report i script (Fylle inn trxid og timestamp)
+- #73 - Konvertere markdown fil til PDF. gjort gjennom extension i Visual studio code med identifier: yzane.markdown-pdf
 ```javascript
 //fetch('https://bacit.info/hwr/"time"-"trxid".json') sett inn time og trxid av formen du vil skal bli brukt, fjern "
         //  .then(response => response.json()) svaret fra server.
