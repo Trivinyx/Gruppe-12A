@@ -119,6 +119,7 @@ Vi kaller dette inspurt og finpuss, forde det er denne delen som har hatt høyt 
 - #57 - Lagt inn javascript til henting av data i HWR-report.html, javascript er hentet fra: https://github.com/digitnow/how-we-roll 
 - #61 - Diskusjon - Komme med endringer eller nye spørsmål til HWR.html, #62 - Legge inn endelige spørsmål på HWR.html
 - #68 - Legge inn sin egen form url link i hwr-report i script (Fylle inn trxid og timestamp)
+- #73 - Konvertere markdown fil til PDF. gjort gjennom extension i Visual studio code med identifier: yzane.markdown-pdf
 ```javascript
 //fetch('https://bacit.info/hwr/"time"-"trxid".json') sett inn time og trxid av formen du vil skal bli brukt, fjern "
         //  .then(response => response.json()) svaret fra server.
