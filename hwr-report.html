@@ -4,6 +4,13 @@
     <meta charset="UTF-8">
     <title>HWR Report</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Favicon starter her-->
+    <link rel="apple-touch-icon" sizes="180x180" href="/favic/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favic/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favic/favicon-16x16.png">
+    <link rel="manifest" href="/favic/site.webmanifest">
+    <!--og slutter her -->
+    <!--Css stylingen av siden-->
     <style>
         body{
                 /*standard definisjoner for websiden*/
@@ -152,6 +159,7 @@
       <h2 id="titleRap">Rapport fra "How We Roll"</h2>
       <canvas id="can"></canvas>
       <div id="debug"></div>
+      <div id="testprint"></div>
   </section>
   <!--Footer på bunnen av siden-->
   <footer id="mainFooter">
@@ -437,6 +445,9 @@
 
                 c.fillStyle = "black"
                 c.fillText(data.fnavn,30,405)
+
+                document.querySelector(`#testprint`).innerHTML += `${data.mona}%`;
+                console.log(`${data.mona}%`) ;
 
             });
         //Thomas sin innsending
