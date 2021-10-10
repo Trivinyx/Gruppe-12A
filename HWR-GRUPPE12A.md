@@ -207,10 +207,10 @@ Forandringer knyttet til issue #66: Endret fargekontraster for bedere leslighet 
 
 Vi ønsket at siden skulle best mulig følge de normen som er satt for nettsider, så Tom satt seg ned og utforsket hvilke kontrast feil vi hadde i forhold til universell utforming blant andre. Vi har brukt et par validatorer gjennom prosessen:
 - [2] [W3C](https://validator.w3.org/) Gokjennelse, reultat er ingen error eller varsler.
-- [3] [Wave Evaluation tool](https://chrome.google.com/webstore/detail/wave-evaluation-tool/jbbplnpkjmmeebjpijfedlgcdilocofh) Brukte vi for og sjekke for Universell Utformin møter markedstandar, etter noen justeringer gjør siden nå dette.
+- [3] [Wave Evaluation tool](https://chrome.google.com/webstore/detail/wave-evaluation-tool/jbbplnpkjmmeebjpijfedlgcdilocofh) Brukte vi til å sjekke for Universell Utformin møter markedstandar, etter noen justeringer gjør siden nå dette.
 
 ### Refleksjon
-mesteparten av læringsprosessen for majoriteten av gruppen har vært og se forskjellige eksempler, for så og prøve det ut selv for og finne ut hvorden det virker. En annen måte vi har lært på er og se på hverandre, diskutere og florklare ting innad i gruppen.
+Mesteparten av læringsprosessen for majoriteten av gruppen har vært å se forskjellige eksempler, for så og prøve det ut selv for å finne ut hvorden det virker. En annen måte vi har lært på er å se på hverandre, diskutere og florklare ting innad i gruppen.
 i satarten brukte vi et par youtube vidioer til og komme igang med Html og CSS
 - [4] [Html crash course](https://www.youtube.com/watch?v=UB1O30fR-EE&t=0s)
 - [5] [Css crash course](https://www.youtube.com/watch?v=yfoY53QXEnI&t=0s)
@@ -221,7 +221,7 @@ Vi har også brukt:
 - [8] [MDN JS](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 - [9] [W3 Schools](https://www.w3schools.com/)
 
-som plasser til og sjekke opp infromasjon på funskjonalitete av Tag's, Selectors, Property, Property value, Declarations osv.
+som plasser til å sjekke opp infromasjon på funskjonalitete av Tag's, Selectors, Property, Property value, Declarations osv.
 
 ### Referanceliste
 1. https://github.com/digitnow/how-we-roll (sist sett 10.10.2021)
