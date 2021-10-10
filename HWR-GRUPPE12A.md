@@ -9,7 +9,7 @@
 
 Tilatteser og erklæringer | Ja | Nei
 ---- | ---- | ----
-Alle over har contribuert tilstreklig abreid til oppgaven: | X |
+Alle over har kontribuert tilstrekkelig arbeid til oppgaven: | X |
 Alle kilder vi har brukt er referert til: | X |
 Vi tillater at dette prosjektet blir brukt til undervisning: | X | 
 
