@@ -14,7 +14,9 @@ Alle kilder vi har brukt er referert til: | X |
 Vi tillater at dette prosjektet blir brukt til undervisning: | X | 
 
 >Repository: [Gruppe-12A](https://github.com/Trivinyx/Gruppe-12A)
-
+>
+> Hjemmeside: [Velkommen til Gruppe 12A](https://trivinyx.github.io/Gruppe-12A/)
+> 
 >Prosjektside: [Gruppe-12A-IS-Kanban](https://github.com/users/Trivinyx/projects/4)
 
 
