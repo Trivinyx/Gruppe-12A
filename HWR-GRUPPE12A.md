@@ -7,9 +7,16 @@
 * Sunniva:  @sunnivalien
 * Cathrine:  @Cathrinerh
 
+Tilatteser og erklæringer | Ja | Nei
+---- | ---- | ----
+Alle over har contribuert tilstreklig abreid til oppgaven: | X |
+Alle kilder vi har brukt er referert til: | X |
+Vi tillater at dette prosjektet blir brukt til undervisning: | X | 
+
 >Repository: [Gruppe-12A](https://github.com/Trivinyx/Gruppe-12A)
 
 >Prosjektside: [Gruppe-12A-IS-Kanban](https://github.com/users/Trivinyx/projects/4)
+
 
 ### Hvordan vi har valgt og arbeide, og fordeling av repitive oppgaver og ansvar
 Da vi startet å jobbe på prosjektarbeidet, hadde vi ikke delt opp gruppen, men etter vi hadde jobbet litt, fant vi ut at dette var en _bedre_ måte å jobbe på. Når vi da skulle dele gruppen inn i kodepar, tok vi utgangspunkt i det vi hadde lært om basis html og css og gihub kunnnskaper.
@@ -118,9 +125,9 @@ Vi valgdte utifra alle sine ferdige forslag å merge brachen HWR-form-3 til Main
 ### Innspurten og finpuss
 Vi kaller dette inspurt og finpuss, forde det er denne delen som har hatt høyt tempo og mye ferdigstilling av koden. Her er noen ting som har blitt gjennomført under denne biten er:
 - #53 - Lagt inn standar stylen vi brukte på index.html til HWR-report.html. (Navbar, footer, body og css klasser.
-- #55 - Lagt til javascript i how-we-roll-html, hentet fra: https://github.com/digitnow/how-we-roll
+- #55 - Lagt til javascript i how-we-roll-html, hentet fra: [1] [Digitnow](https://github.com/digitnow/how-we-roll)
 - #56- Laget et canvas element, for å vise frem dataene samlet inn i .json filer fra how-we-roll.html formen.
-- #57 - Lagt inn javascript til henting av data i HWR-report.html, javascript er hentet fra: https://github.com/digitnow/how-we-roll 
+- #57 - Lagt inn javascript til henting av data i HWR-report.html, javascript er hentet fra: [1] [Digintnow](https://github.com/digitnow/how-we-roll) 
 - #61 - Diskusjon - Komme med endringer eller nye spørsmål til HWR.html, #62 - Legge inn endelige spørsmål på HWR.html
 - #68 - Legge inn sin egen form url link i hwr-report i script (Fylle inn trxid og timestamp)
 - #73 - Konvertere markdown fil til PDF. gjort gjennom extension i Visual studio code med identifier: yzane.markdown-pdf
@@ -196,5 +203,31 @@ Festingen av Footer og navbar:
 *#65 (universell utforming)
 Forandringer knyttet til issue #66: Endret fargekontraster for bedere leslighet på alle html dokumenter. Gjort om på skygge på knapper, og fikset at skyggen ikke blir grønn når en trykker på den. Fjernet border tykkelsesforandring på knappene når en hovrer. Endret på transparanse verdi på visitkort kortene. Lagdt til tekstfarge på onHover effeckten til visitkortene slik at de er lettere og lese når man hovrere over de. Navbar backgrunns size, linjehøyde på knapper så de ikke overlapper. Forandret på visuell framstilling av html coden i teksteditor for hwr-report.html*
 
-Vi ønsket at siden skulle best mulig følge de normen som er satt for nettsider, så Tom satt seg ned og utforsket hvilke kontrast feil vi hadde i forhold til universell utforming blant andre.
+Vi ønsket at siden skulle best mulig følge de normen som er satt for nettsider, så Tom satt seg ned og utforsket hvilke kontrast feil vi hadde i forhold til universell utforming blant andre. Vi har brukt et par validatorer gjennom prosessen:
+- [2] [W3C](https://validator.w3.org/) Gokjennelse, reultat er ingen error eller varsler.
+- [3] [Wave Evaluation tool](https://chrome.google.com/webstore/detail/wave-evaluation-tool/jbbplnpkjmmeebjpijfedlgcdilocofh) Brukte vi for og sjekke for Universell Utformin møter markedstandar, etter noen justeringer gjør siden nå dette.
 
+### Refleksjon
+mesteparten av læringsprosessen for majoriteten av gruppen har vært og se forskjellige eksempler, for så og prøve det ut selv for og finne ut hvorden det virker. En annen måte vi har lært på er og se på hverandre, diskutere og florklare ting innad i gruppen.
+i satarten brukte vi et par youtube vidioer til og komme igang med Html og CSS
+- [4] [Html crash course](https://www.youtube.com/watch?v=UB1O30fR-EE&t=0s)
+- [5] [Css crash course](https://www.youtube.com/watch?v=yfoY53QXEnI&t=0s)
+
+Vi har også brukt:
+- [6] [MDN html](https://developer.mozilla.org/en-US/docs/Web/HTML)
+- [7] [MDN Css](https://developer.mozilla.org/en-US/docs/Web/CSS)
+- [8] [MDN JS](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+- [9] [W3 Schools](https://www.w3schools.com/)
+
+som plasser til og sjekke opp infromasjon på funskjonalitete av Tag's, Selectors, Property, Property value, Declarations osv.
+
+### Referanceliste
+1. https://github.com/digitnow/how-we-roll
+2. https://validator.w3.org/
+3. [Wave evaluattion tool, chrome extension nedlastiningsside](https://chrome.google.com/webstore/detail/wave-evaluation-tool/jbbplnpkjmmeebjpijfedlgcdilocofh)
+4. https://www.youtube.com/watch?v=UB1O30fR-EE&t=0s
+5. https://www.youtube.com/watch?v=yfoY53QXEnI&t=0s
+6. https://developer.mozilla.org/en-US/docs/Web/HTML
+7. https://developer.mozilla.org/en-US/docs/Web/CSS
+8. https://developer.mozilla.org/en-US/docs/Web/JavaScript
+9. https://www.w3schools.com
