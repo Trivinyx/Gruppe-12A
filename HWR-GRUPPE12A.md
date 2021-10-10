@@ -44,7 +44,7 @@ Da vi skulle velge farger til hjemmesiden fikk alle i oppgave å legge frem et f
 
 vi har generellt brukt fargene som vi har valgdt til ca.90% av sidens farger.
 
-#37 (Endring av farger) -  Etter vi hadde bestemt oss så vi at fargene ikke passet helt sammen, så vi bestemte oss for å bytte fargepalett.
+(#37) (Endring av farger) -  Etter vi hadde bestemt oss så vi at fargene ikke passet helt sammen, så vi bestemte oss for å bytte fargepalett.
 ### Begynnelsen av index.html og tidligere visitkort.html html biten
 I første omgang satt Tom og Thomas sammen og bygde opp selve siden, men de har i senere tid forklart resten av gruppen hva de gjorde #6(Lag en basic hjemmeside index.html).
 de skulle igrunn bare legge inn:
@@ -101,8 +101,8 @@ det elemntene som ble stylet under denne sesjonen var:
 Etter at Tom og Thomas hadde sittet og lagd det som blir beskrevet over, tok Tom og delte skjerm, viste hva som var gjort, forklarte de individuelle tingene i html og css, tok imot feedback. Dette førte til at alle på gruppen var inneforstått med hva som var gjort og hvordan det fungerte selvom de ikke direkte hadde skrevet det.
 I etkkerant av dette ble det satt opp issues for fargevalg #13 og inleggelse av dette #14, andre issues som ble satt opp var at alle skulle legge inn hver sin bit på navn og infor. Vi ble enige om at Rollen skulle være IT student.
  
-- #15 (fikse centrering av vissitkort) - Få kortene til å være centrert i CSS, etter at de begynner å legge seg på linje. Og #23 (fikse at kortene flyttes når bildet ikke finnes) Dette ble fikset da issue #15 ble fikset på. 
-- #17 (Sjekk at alt av text er lagt inn for bildene direkte i html) - Sjekk at alt= "tekst" i tagger for bilder er tilstede, og at den beskriver bildet på en forstårlig måte. Utbedre der dette trengs. 
+- (#15) (fikse centrering av vissitkort) - Få kortene til å være centrert i CSS, etter at de begynner å legge seg på linje. Og #23 (fikse at kortene flyttes når bildet ikke finnes) Dette ble fikset da issue #15 ble fikset på. 
+- (#17) (Sjekk at alt av text er lagt inn for bildene direkte i html) - Sjekk at alt= "tekst" i tagger for bilder er tilstede, og at den beskriver bildet på en forstårlig måte. Utbedre der dette trengs. 
 - Vi opprette en egen issue for diskusjon til forslag til utbedringer og/eller endringer til web-siden, hvor man kan komme med innspill. #18
 
 ### Når vi fikk oppdatert oppgave info
@@ -118,21 +118,21 @@ I forbindelse med dette, var det på dette tispunktet at vi oprette kodepar, og 
 
 ### HWR-Form
 Da det kom til innholdet i HWR.html, bestemte vi oss for at alle parene skulle produsere sitt egedt forslag i hver sin branch på hvordan formen skulle være. Dette ble satt opp som seperate issues #41, #42 og #43. linked til vær sin brach og kodepar
-- #41 HWR-form-1, Tom og Thomas
-- #42 HWR-form-2, Cathrine og Ansu
-- #43 HWR-form-3, Sunniva og Mats
+- (#41) HWR-form-1, Tom og Thomas
+- (#42) HWR-form-2, Cathrine og Ansu
+- (#43) HWR-form-3, Sunniva og Mats
 
 Vi valgdte utifra alle sine ferdige forslag å merge brachen HWR-form-3 til Main, og bygge videre på denne.
 
 ### Innspurten og finpuss
 Vi kaller dette inspurt og finpuss, forde det er denne delen som har hatt høyt tempo og mye ferdigstilling av koden. Her er noen ting som har blitt gjennomført under denne biten er:
-- #53 - Lagt inn standar stylen vi brukte på index.html til HWR-report.html. (Navbar, footer, body og css klasser.
-- #55 - Lagt til javascript i how-we-roll-html, hentet fra: [1] [Digitnow](https://github.com/digitnow/how-we-roll)
-- #56- Laget et canvas element, for å vise frem dataene samlet inn i .json filer fra how-we-roll.html formen.
-- #57 - Lagt inn javascript til henting av data i HWR-report.html, javascript er hentet fra: [1] [Digintnow](https://github.com/digitnow/how-we-roll) 
-- #61 - Diskusjon - Komme med endringer eller nye spørsmål til HWR.html, #62 - Legge inn endelige spørsmål på HWR.html
-- #68 - Legge inn sin egen form url link i hwr-report i script (Fylle inn trxid og timestamp)
-- #73 - Konvertere markdown fil til PDF. gjort gjennom extension i Visual studio code med identifier: yzane.markdown-pdf
+- (#53) - Lagt inn standar stylen vi brukte på index.html til HWR-report.html. (Navbar, footer, body og css klasser.
+- (#55) - Lagt til javascript i how-we-roll-html, hentet fra: [1] [Digitnow](https://github.com/digitnow/how-we-roll)
+- (#56) - Laget et canvas element, for å vise frem dataene samlet inn i .json filer fra how-we-roll.html formen.
+- (#57) - Lagt inn javascript til henting av data i HWR-report.html, javascript er hentet fra: [1] [Digintnow](https://github.com/digitnow/how-we-roll) 
+- (#61) - Diskusjon - Komme med endringer eller nye spørsmål til HWR.html, #62 - Legge inn endelige spørsmål på HWR.html
+- (#68) - Legge inn sin egen form url link i hwr-report i script (Fylle inn trxid og timestamp)
+- (#73) - Konvertere markdown fil til PDF. gjort gjennom extension i Visual studio code med identifier: yzane.markdown-pdf
 ```javascript
 //fetch('https://bacit.info/hwr/"time"-"trxid".json') sett inn time og trxid av formen du vil skal bli brukt, fjern "
         //  .then(response => response.json()) svaret fra server.
@@ -209,6 +209,8 @@ Vi ønsket at siden skulle best mulig følge de normen som er satt for nettsider
 - [2] [W3C](https://validator.w3.org/) Gokjennelse, reultat er ingen error eller varsler.
 - [3] [Wave Evaluation tool](https://chrome.google.com/webstore/detail/wave-evaluation-tool/jbbplnpkjmmeebjpijfedlgcdilocofh) Brukte vi til å sjekke for Universell Utformin møter markedstandar, etter noen justeringer gjør siden nå dette.
 
+Vi har også lagdt til Favicon, generert på [10] [Favicon.io](https://favicon.io/favicon-generator/) til siden vår.
+
 ### Refleksjon
 Mesteparten av læringsprosessen for majoriteten av gruppen har vært å se forskjellige eksempler, for så og prøve det ut selv for å finne ut hvorden det virker. En annen måte vi har lært på er å se på hverandre, diskutere og florklare ting innad i gruppen.
 i satarten brukte vi et par youtube vidioer til og komme igang med Html og CSS
@@ -233,3 +235,4 @@ som plasser til å sjekke opp infromasjon på funskjonalitete av Tag's, Selector
 7. https://developer.mozilla.org/en-US/docs/Web/CSS (sist sett 10.10.2021)
 8. https://developer.mozilla.org/en-US/docs/Web/JavaScript (sist sett 10.10.2021)
 9. https://www.w3schools.com (sist sett 10.10.2021)
+10. https://favicon.io/favicon-generator/ (sist sett 10.10.2021)
