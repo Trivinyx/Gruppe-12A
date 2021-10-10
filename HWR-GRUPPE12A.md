@@ -209,7 +209,7 @@ Vi ønsket at siden skulle best mulig følge de normen som er satt for nettsider
 - [2] [W3C](https://validator.w3.org/) Gokjennelse, reultat er ingen error eller varsler.
 - [3] [Wave Evaluation tool](https://chrome.google.com/webstore/detail/wave-evaluation-tool/jbbplnpkjmmeebjpijfedlgcdilocofh) Brukte vi til å sjekke for Universell Utformin møter markedstandar, etter noen justeringer gjør siden nå dette.
 
-Vi har også lagdt til Favicon, generert på [10] [Favicon.io](https://favicon.io/favicon-generator/) til siden vår.
+Vi har også lagdt til Favicon, generert på [10] [Favicon.io](https://favicon.io/favicon-generator/) til siden vår. Funker med locahost, men manifest blir overskrevet av github pages server.
 
 ### Refleksjon
 Mesteparten av læringsprosessen for majoriteten av gruppen har vært å se forskjellige eksempler, for så og prøve det ut selv for å finne ut hvorden det virker. En annen måte vi har lært på er å se på hverandre, diskutere og florklare ting innad i gruppen.
