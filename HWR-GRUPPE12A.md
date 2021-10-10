@@ -222,12 +222,12 @@ Vi har også brukt:
 som plasser til og sjekke opp infromasjon på funskjonalitete av Tag's, Selectors, Property, Property value, Declarations osv.
 
 ### Referanceliste
-1. https://github.com/digitnow/how-we-roll
-2. https://validator.w3.org/
-3. [Wave evaluattion tool, chrome extension nedlastiningsside](https://chrome.google.com/webstore/detail/wave-evaluation-tool/jbbplnpkjmmeebjpijfedlgcdilocofh)
-4. https://www.youtube.com/watch?v=UB1O30fR-EE&t=0s
-5. https://www.youtube.com/watch?v=yfoY53QXEnI&t=0s
-6. https://developer.mozilla.org/en-US/docs/Web/HTML
-7. https://developer.mozilla.org/en-US/docs/Web/CSS
-8. https://developer.mozilla.org/en-US/docs/Web/JavaScript
-9. https://www.w3schools.com
+1. https://github.com/digitnow/how-we-roll (sist sett 10.10.2021)
+2. https://validator.w3.org/ (sist sett 10.10.2021)
+3. [Wave evaluattion tool, chrome extension nedlastiningsside](https://chrome.google.com/webstore/detail/wave-evaluation-tool/jbbplnpkjmmeebjpijfedlgcdilocofh) (sist sett 10.10.2021)
+4. https://www.youtube.com/watch?v=UB1O30fR-EE&t=0s (sist sett 10.10.2021)
+5. https://www.youtube.com/watch?v=yfoY53QXEnI&t=0s (sist sett 10.10.2021)
+6. https://developer.mozilla.org/en-US/docs/Web/HTML (sist sett 10.10.2021)
+7. https://developer.mozilla.org/en-US/docs/Web/CSS (sist sett 10.10.2021)
+8. https://developer.mozilla.org/en-US/docs/Web/JavaScript (sist sett 10.10.2021)
+9. https://www.w3schools.com (sist sett 10.10.2021)
